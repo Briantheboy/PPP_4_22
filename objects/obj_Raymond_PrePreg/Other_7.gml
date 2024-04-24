@@ -36,4 +36,20 @@ if(sprite_index == spr_Ray_Wake)
 	/// @DnDSaveInfo : "spriteind" "spr_Ray_Wake_Up"
 	sprite_index = spr_Ray_Wake_Up;
 	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 357602EE
+	/// @DnDParent : 7F3C7968
+	/// @DnDArgument : "soundid" "sou_lid_open"
+	/// @DnDSaveInfo : "soundid" "sou_lid_open"
+	audio_play_sound(sou_lid_open, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 0E077F9E
+	/// @DnDParent : 7F3C7968
+	/// @DnDArgument : "soundid" "sou_robot_hmm"
+	/// @DnDSaveInfo : "soundid" "sou_robot_hmm"
+	audio_play_sound(sou_robot_hmm, 0, 0, 1.0, undefined, 1.0);
 }

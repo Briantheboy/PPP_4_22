@@ -16,54 +16,56 @@
     {"name":"inst_1EC8124","path":"rooms/Cut_Preg_Start/Cut_Preg_Start.yy",},
     {"name":"inst_7822D3C4","path":"rooms/Cut_Preg_Start/Cut_Preg_Start.yy",},
     {"name":"inst_2CCB9F2D","path":"rooms/Cut_Preg_Start/Cut_Preg_Start.yy",},
+    {"name":"inst_14E243EC","path":"rooms/Cut_Preg_Start/Cut_Preg_Start.yy",},
   ],
   "isDnd": true,
   "layers": [
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel12","depth":0,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"25",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel11","depth":100,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"22",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel10","depth":200,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"20",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel9","depth":300,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"18",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel8","depth":400,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"16",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel7","depth":500,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"14",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel6","depth":600,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"12",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel5","depth":700,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"10",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel4","depth":800,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"8",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel3","depth":900,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"6",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel2","depth":1000,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"4",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel1","depth":1100,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_CellSize","type":0,"value":"3",},
-      ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_1","depth":1200,"effectEnabled":true,"effectType":"_filter_linear_blur","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_1","depth":0,"effectEnabled":true,"effectType":"_filter_linear_blur","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_LinearBlurVector","type":0,"value":"5",},
         {"name":"g_LinearBlurVector","type":0,"value":"0",},
         {"name":"g_NoiseTexture","type":2,"value":"_filter_linear_blur_noise",},
       ],"userdefinedDepth":false,"visible":false,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command1","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1453BB16","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_PixelAway","path":"objects/obj_PixelAway/obj_PixelAway.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4883CAF5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_SpinBlur_Ray","path":"objects/obj_SpinBlur_Ray/obj_SpinBlur_Ray.yy",},"properties":[],"rotation":0.0,"scaleX":1.6707464,"scaleY":1.6707467,"x":1600.0,"y":1154.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14E243EC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_skipcutscene","path":"objects/obj_skipcutscene/obj_skipcutscene.yy",},"properties":[],"rotation":0.0,"scaleX":1.1174598,"scaleY":1.1174598,"x":2848.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel12","depth":200,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"25",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel11","depth":300,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"22",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel10","depth":400,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"20",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel9","depth":500,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"18",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel8","depth":600,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"16",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel7","depth":700,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"14",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel6","depth":800,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"12",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel5","depth":900,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"10",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel4","depth":1000,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"8",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel3","depth":1100,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"6",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel2","depth":1200,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"4",},
+      ],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Pixel1","depth":1300,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_CellSize","type":0,"value":"3",},
+      ],"userdefinedDepth":false,"visible":false,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Extra","depth":1400,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76E2F280","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Spotlight_zoomin","path":"objects/obj_Spotlight_zoomin/obj_Spotlight_zoomin.yy",},"properties":[],"rotation":0.0,"scaleX":1.66,"scaleY":1.66,"x":1600.0936,"y":0.10144043,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

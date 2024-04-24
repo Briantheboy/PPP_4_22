@@ -27,6 +27,12 @@ audio_play_sound(sou_weirdpoo, 0, 0, 1.0, undefined, 1.0);
 sprite_index = spr_Ray_pooping;
 image_index = 0;
 
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 6ED69A20
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+with(obj_Raymond_Bitch) instance_destroy();
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score
 /// @DnDVersion : 1
 /// @DnDHash : 41816E0F

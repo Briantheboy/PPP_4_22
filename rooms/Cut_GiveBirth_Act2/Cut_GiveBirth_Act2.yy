@@ -16,6 +16,7 @@
     {"name":"inst_703FF73D","path":"rooms/Cut_GiveBirth_Act2/Cut_GiveBirth_Act2.yy",},
     {"name":"inst_3FB61ACF","path":"rooms/Cut_GiveBirth_Act2/Cut_GiveBirth_Act2.yy",},
     {"name":"inst_518EE772","path":"rooms/Cut_GiveBirth_Act2/Cut_GiveBirth_Act2.yy",},
+    {"name":"inst_49C43462","path":"rooms/Cut_GiveBirth_Act2/Cut_GiveBirth_Act2.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -23,6 +24,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4DFB046E_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_laxativepill","path":"objects/obj_laxativepill/obj_laxativepill.yy",},"properties":[],"rotation":0.0,"scaleX":0.65,"scaleY":0.65,"x":738.0,"y":1538.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2EFDBAD9_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_laxativepill","path":"objects/obj_laxativepill/obj_laxativepill.yy",},"properties":[],"rotation":0.0,"scaleX":0.65,"scaleY":0.65,"x":1472.0,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2B831D89_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_confused","path":"objects/obj_confused/obj_confused.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":309.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_49C43462","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_skipcutscene","path":"objects/obj_skipcutscene/obj_skipcutscene.yy",},"properties":[],"rotation":0.0,"scaleX":1.1174598,"scaleY":1.1174598,"x":1632.0,"y":-288.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_2","depth":100,"effectEnabled":true,"effectType":"_filter_screenshake","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_Magnitude","type":0,"value":"95",},

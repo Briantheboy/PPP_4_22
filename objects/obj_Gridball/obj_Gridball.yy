@@ -4,6 +4,7 @@
   "name": "obj_Gridball",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Gridball",
-    "path": "sprites/spr_Gridball/spr_Gridball.yy",
+    "name": "spr_Ray_Head_anim",
+    "path": "sprites/spr_Ray_Head_anim/spr_Ray_Head_anim.yy",
   },
   "spriteMaskId": null,
   "visible": true,

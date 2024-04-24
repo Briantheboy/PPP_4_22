@@ -3,19 +3,19 @@
 /// @DnDHash : 7228A77B
 /// @DnDArgument : "var" "image_xscale"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "3.7"
-if(image_xscale < 3.7)
+/// @DnDArgument : "value" "8"
+if(image_xscale < 8)
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
 	/// @DnDHash : 45AAFE7F
 	/// @DnDParent : 7228A77B
-	/// @DnDArgument : "xscale" "0.06"
+	/// @DnDArgument : "xscale" "0.12"
 	/// @DnDArgument : "xscale_relative" "1"
-	/// @DnDArgument : "yscale" "0.06"
+	/// @DnDArgument : "yscale" "0.12"
 	/// @DnDArgument : "yscale_relative" "1"
-	image_xscale += 0.06;
-	image_yscale += 0.06;
+	image_xscale += 0.12;
+	image_yscale += 0.12;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -23,8 +23,8 @@ if(image_xscale < 3.7)
 /// @DnDHash : 66B35B9A
 /// @DnDArgument : "var" "image_xscale"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "3.7"
-if(image_xscale >= 3.7)
+/// @DnDArgument : "value" "8"
+if(image_xscale >= 8)
 {
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1

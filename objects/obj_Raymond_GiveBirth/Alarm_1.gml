@@ -16,6 +16,17 @@ instance_create_layer(1600, 300, "Command1", obj_confused);
 sprite_index = spr_Ray_tummyshrink;
 image_index = 0;
 
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 288CBAC6
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+/// @DnDArgument : "spriteind" "spr_Ray_tummyshrink"
+/// @DnDSaveInfo : "spriteind" "spr_Ray_tummyshrink"
+with(obj_Raymond_Bitch) {
+sprite_index = spr_Ray_tummyshrink;
+image_index = 0;
+}
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 4C849719
