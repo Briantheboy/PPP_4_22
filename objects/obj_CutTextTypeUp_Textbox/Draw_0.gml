@@ -386,8 +386,8 @@ if(room == Cut_8)
 		/// @DnDArgument : "xscale" "0.75"
 		/// @DnDArgument : "yscale" "0.75"
 		/// @DnDArgument : "caption" ""
-		/// @DnDArgument : "text" "string_copy("\"Raymond, I think YOU should get pregnant.\"",1,TypeNum)"
-		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Raymond, I think YOU should get pregnant.\"",1,TypeNum)), 0.75, 0.75, 0);
+		/// @DnDArgument : "text" "string_copy("\"Raymond, maybe YOU should get pregnant.\"",1,TypeNum)"
+		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Raymond, maybe YOU should get pregnant.\"",1,TypeNum)), 0.75, 0.75, 0);
 	
 		/// @DnDAction : YoYo Games.Instance Variables.If_Health
 		/// @DnDVersion : 1

@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 37850F4A
-/// @DnDArgument : "code" "camera_set_view_angle(view_camera[0], angle );$(13_10)$(13_10)$(13_10)"
-camera_set_view_angle(view_camera[0], angle );
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4F861212
