@@ -1,12 +1,3 @@
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-/// @DnDVersion : 1
-/// @DnDHash : 75EE1405
-/// @DnDDisabled : 1
-/// @DnDArgument : "x" "25"
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y_relative" "1"
-
-
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 4038EF65

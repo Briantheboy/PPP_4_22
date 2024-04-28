@@ -23,6 +23,26 @@ sprite_index = spr_doortrans_alt;
 image_index = 0;
 }
 
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 297BAF7C
+/// @DnDArgument : "health" "2"
+
+__dnd_health = real(2);
+
+/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+/// @DnDVersion : 1
+/// @DnDHash : 3D62A6AC
+/// @DnDArgument : "state" "3"
+timeline_running = false;
+timeline_position = 0;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+/// @DnDVersion : 1
+/// @DnDHash : 510DDA44
+/// @DnDArgument : "angle" "-10"
+image_angle = -10;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5D0B65BD

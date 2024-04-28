@@ -46,9 +46,9 @@ if(!(room == gameover))
 		/// @DnDHash : 2EC99AF7
 		/// @DnDApplyTo : {obj_trackerball}
 		/// @DnDParent : 0CBABB52
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		with(obj_trackerball) room_goto(FLIRT);
+		/// @DnDArgument : "room" "MARIO"
+		/// @DnDSaveInfo : "room" "MARIO"
+		with(obj_trackerball) room_goto(MARIO);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1

@@ -19,3 +19,19 @@ if(room == Make_Intro)
 	image_blend = $FF60E86E & $ffffff;
 	image_alpha = ($FF60E86E >> 24) / $ff;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 531792D1
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Cut_Preg_Start_Act3"
+if(room == Cut_Preg_Start_Act3)
+{
+	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 15E71A9B
+	/// @DnDParent : 531792D1
+	/// @DnDArgument : "colour" "$FF60E86E"
+	image_blend = $FF60E86E & $ffffff;
+	image_alpha = ($FF60E86E >> 24) / $ff;
+}
