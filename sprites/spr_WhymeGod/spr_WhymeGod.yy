@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_WhymeGod",
   "bbox_bottom": 214,
-  "bbox_left": 93,
-  "bbox_right": 1010,
+  "bbox_left": 29,
+  "bbox_right": 1079,
   "bbox_top": 39,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b50e2c3-45b8-41c0-999c-7f480d4b91e2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8b728b47-0241-4b67-9c3f-06c7c94e5f3c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 249,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9b861ce2-c873-4428-ab41-3f379716914c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"eb537208-a551-437d-8582-0e1b016771f9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9b50e2c3-45b8-41c0-999c-7f480d4b91e2","path":"sprites/spr_WhymeGod/spr_WhymeGod.yy",},},},"Disabled":false,"id":"27d70645-94c1-454c-acf3-044a3433c68c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8b728b47-0241-4b67-9c3f-06c7c94e5f3c","path":"sprites/spr_WhymeGod/spr_WhymeGod.yy",},},},"Disabled":false,"id":"0afb6db7-7f61-4be5-9d72-01418d9f5abb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -30,5 +30,12 @@ audio_play_sound(sou_logoreveal, 0, 0, 1.0, undefined, 1.0);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 0A2613C2
+/// @DnDDisabled : 1
 /// @DnDArgument : "steps" "180"
-alarm_set(0, 180);
+
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 25B5EE72
+/// @DnDArgument : "steps" "900"
+alarm_set(0, 900);

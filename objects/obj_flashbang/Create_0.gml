@@ -34,4 +34,11 @@ if(room == Cut_Preg_Start_Act3)
 	/// @DnDArgument : "colour" "$FF60E86E"
 	image_blend = $FF60E86E & $ffffff;
 	image_alpha = ($FF60E86E >> 24) / $ff;
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+	/// @DnDVersion : 1
+	/// @DnDHash : 436B8932
+	/// @DnDParent : 531792D1
+	/// @DnDArgument : "alpha" "1.5"
+	image_alpha = 1.5;
 }

@@ -45,7 +45,7 @@ if(image_xscale >= 8)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4B1BE3A6
 	/// @DnDParent : 66B35B9A
-	/// @DnDArgument : "room" "Make_Intro"
-	/// @DnDSaveInfo : "room" "Make_Intro"
-	room_goto(Make_Intro);
+	/// @DnDArgument : "room" "Cut_Preg_Start_Act3"
+	/// @DnDSaveInfo : "room" "Cut_Preg_Start_Act3"
+	room_goto(Cut_Preg_Start_Act3);
 }

@@ -6216,7 +6216,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D528C8A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_right","path":"objects/obj_right/obj_right.yy",},"properties":[],"rotation":0.0,"scaleX":0.14,"scaleY":0.1660274,"x":1182.0,"y":501.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EC29323","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_FAKEbeige_High","path":"objects/obj_FAKEbeige_High/obj_FAKEbeige_High.yy",},"properties":[],"rotation":90.0,"scaleX":10.836196,"scaleY":0.79999995,"x":1264.0,"y":168.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Real_Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1700,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":-0.25,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Real_Background","animationFPS":30.0,"animationSpeedType":0,"colour":4286611584,"depth":1700,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":-0.25,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.01",},
         {"name":"g_Distort2Speed","type":0,"value":"0.008",},
         {"name":"g_Distort1Scale","type":0,"value":"0.05",},
@@ -6229,7 +6229,7 @@
         {"name":"g_CamOffsetScale","type":0,"value":"1",},
         {"name":"g_GlintCol","type":1,"value":"#FF00FF00",},
         {"name":"g_TintCol","type":1,"value":"#FF00FF00",},
-        {"name":"g_AddCol","type":1,"value":"#FF331900",},
+        {"name":"g_AddCol","type":1,"value":"#FF000000",},
         {"name":"g_DistortTexture","type":2,"value":"_filter_underwater_noise_sprite",},
       ],"spriteId":{"name":"spr_background_make","path":"sprites/spr_background_make/spr_background_make.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.13,"vtiled":true,"x":0,"y":0,},
   ],
