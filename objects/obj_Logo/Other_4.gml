@@ -19,3 +19,16 @@ timeline_running = 1;
 /// @DnDArgument : "soundid" "sou_Alarm"
 /// @DnDSaveInfo : "soundid" "sou_Alarm"
 audio_stop_sound(sou_Alarm);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 1EFA5005
+/// @DnDArgument : "soundid" "sou_logoreveal"
+/// @DnDSaveInfo : "soundid" "sou_logoreveal"
+audio_play_sound(sou_logoreveal, 0, 0, 1.0, undefined, 1.0);
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 0A2613C2
+/// @DnDArgument : "steps" "180"
+alarm_set(0, 180);
