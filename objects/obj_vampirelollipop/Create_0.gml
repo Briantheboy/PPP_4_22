@@ -7,5 +7,5 @@ image_alpha = -1;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 04F51968
-/// @DnDArgument : "steps" "60"
-alarm_set(0, 60);
+/// @DnDArgument : "steps" "2"
+alarm_set(0, 2);

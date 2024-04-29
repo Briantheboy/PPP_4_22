@@ -260,8 +260,8 @@ if(room == Cut_9)
 /// @DnDVersion : 1
 /// @DnDHash : 35DF3D7C
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "Cut_TitleScreen"
-if(room == Cut_TitleScreen)
+/// @DnDArgument : "value" "Title_Time"
+if(room == Title_Time)
 {
 	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 	/// @DnDVersion : 1

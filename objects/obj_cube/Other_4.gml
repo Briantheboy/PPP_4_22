@@ -1,5 +1,20 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 5838C695
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "warningspace"
+if(room == warningspace)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Start
+	/// @DnDVersion : 1
+	/// @DnDHash : 7707DDDE
+	/// @DnDParent : 5838C695
+	x = xstart;
+	y = ystart;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 18C03F8C
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "Cut_GiveBirth_Act3"
