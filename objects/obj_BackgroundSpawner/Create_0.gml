@@ -1,14 +1,11 @@
-/// @DnDAction : YoYo Games.Timelines.Speed_Timeline
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 38897C89
-/// @DnDArgument : "speed" "0.25"
-timeline_speed = 0.25;
+/// @DnDHash : 4DCC9ADD
+/// @DnDArgument : "var" "WaitPermission"
+WaitPermission = 0;
 
-/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
-/// @DnDHash : 4D5B96F7
-/// @DnDArgument : "timeline" "tml_SPAWNER_Move"
-/// @DnDSaveInfo : "timeline" "tml_SPAWNER_Move"
-timeline_index = tml_SPAWNER_Move;
-timeline_loop = 0;
-timeline_running = 1;
+/// @DnDHash : 5097C609
+/// @DnDArgument : "steps" "90"
+alarm_set(0, 90);

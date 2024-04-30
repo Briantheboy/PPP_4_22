@@ -9,12 +9,14 @@
   "instanceCreationOrder": [
     {"name":"inst_1E90BFEE","path":"rooms/Cut_Preg_Start_Act3/Cut_Preg_Start_Act3.yy",},
     {"name":"inst_7F4F2FF6","path":"rooms/Cut_Preg_Start_Act3/Cut_Preg_Start_Act3.yy",},
+    {"name":"inst_39D68832","path":"rooms/Cut_Preg_Start_Act3/Cut_Preg_Start_Act3.yy",},
   ],
   "isDnd": true,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E90BFEE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_flashbang","path":"objects/obj_flashbang/obj_flashbang.yy",},"properties":[],"rotation":0.0,"scaleX":52.18385,"scaleY":30.430582,"x":666.1957,"y":378.87756,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F4F2FF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_StaticHelper","path":"objects/obj_StaticHelper/obj_StaticHelper.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":11.0,"y":302.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_39D68832","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_skipcutscene","path":"objects/obj_skipcutscene/obj_skipcutscene.yy",},"properties":[],"rotation":0.0,"scaleX":1.1174598,"scaleY":1.1174598,"x":896.0,"y":-96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect","depth":100,"effectEnabled":true,"effectType":"_filter_whitenoise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_WhiteNoiseIntensity","type":0,"value":"0.3",},

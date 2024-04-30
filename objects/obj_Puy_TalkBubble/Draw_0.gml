@@ -48,9 +48,9 @@ if(room == Make_Intro)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "Scaler"
 		/// @DnDArgument : "yscale" "Scaler"
-		/// @DnDArgument : "caption" ""How's it goin'? My name is PUYUMI. \nWelcome to Pixel Prom Pregnancy!""
+		/// @DnDArgument : "caption" ""How's it hangin'? I am virtual PUYUMI. \nWelcome to Pixel Prom Pregnancy!""
 		/// @DnDArgument : "angle" "Rotater"
-		draw_text_transformed(x + 150, y + -50, string("How's it goin'? My name is PUYUMI. \nWelcome to Pixel Prom Pregnancy!") + "", Scaler, Scaler, Rotater);
+		draw_text_transformed(x + 150, y + -50, string("How's it hangin'? I am virtual PUYUMI. \nWelcome to Pixel Prom Pregnancy!") + "", Scaler, Scaler, Rotater);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable

@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_whitecube",
-    "path": "sprites/spr_whitecube/spr_whitecube.yy",
+    "name": "spr_NewGame",
+    "path": "sprites/spr_NewGame/spr_NewGame.yy",
   },
   "spriteMaskId": null,
   "visible": true,

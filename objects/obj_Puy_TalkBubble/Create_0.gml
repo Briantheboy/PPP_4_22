@@ -17,3 +17,8 @@ timeline_running = 1;
 Rotater = 0;
 Scaler = 0;
 TalkValue = 0;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 579E6CCE
+alarm_set(0, 30);
