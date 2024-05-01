@@ -33,42 +33,42 @@ image_index = 0;
 /// @DnDHash : 038938C5
 /// @DnDApplyTo : {obj_cube}
 /// @DnDArgument : "path" "pth_CharacterRockin_Right"
-/// @DnDArgument : "speed" "20"
+/// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin_Right"
-with(obj_cube) path_start(pth_CharacterRockin_Right, 20, path_action_stop, false);
+with(obj_cube) path_start(pth_CharacterRockin_Right, 18, path_action_stop, false);
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 3EFDB5EB
 /// @DnDApplyTo : {obj_BigBorder_back}
 /// @DnDArgument : "path" "pth_CharacterRockin_Right"
-/// @DnDArgument : "speed" "20"
+/// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin_Right"
-with(obj_BigBorder_back) path_start(pth_CharacterRockin_Right, 20, path_action_stop, false);
+with(obj_BigBorder_back) path_start(pth_CharacterRockin_Right, 18, path_action_stop, false);
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 6BF4E997
 /// @DnDApplyTo : {obj_BigBorder_front}
 /// @DnDArgument : "path" "pth_CharacterRockin_Right"
-/// @DnDArgument : "speed" "20"
+/// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin_Right"
-with(obj_BigBorder_front) path_start(pth_CharacterRockin_Right, 20, path_action_stop, false);
+with(obj_BigBorder_front) path_start(pth_CharacterRockin_Right, 18, path_action_stop, false);
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 6B82AE66
 /// @DnDApplyTo : {obj_BigBorder_left}
 /// @DnDArgument : "path" "pth_CharacterRockin_Right"
-/// @DnDArgument : "speed" "20"
+/// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin_Right"
-with(obj_BigBorder_left) path_start(pth_CharacterRockin_Right, 20, path_action_stop, false);
+with(obj_BigBorder_left) path_start(pth_CharacterRockin_Right, 18, path_action_stop, false);
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 0C06C415
 /// @DnDApplyTo : {obj_BigBorder_right}
 /// @DnDArgument : "path" "pth_CharacterRockin_Right"
-/// @DnDArgument : "speed" "20"
+/// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin_Right"
-with(obj_BigBorder_right) path_start(pth_CharacterRockin_Right, 20, path_action_stop, false);
+with(obj_BigBorder_right) path_start(pth_CharacterRockin_Right, 18, path_action_stop, false);

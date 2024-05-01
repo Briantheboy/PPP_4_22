@@ -55,9 +55,9 @@ if(room == DoorTest48)
 	/// @DnDHash : 584A4059
 	/// @DnDParent : 76641244
 	/// @DnDArgument : "path" "pth_CharacterRockin"
-	/// @DnDArgument : "speed" "20"
+	/// @DnDArgument : "speed" "18"
 	/// @DnDSaveInfo : "path" "pth_CharacterRockin"
-	path_start(pth_CharacterRockin, 20, path_action_stop, false);
+	path_start(pth_CharacterRockin, 18, path_action_stop, false);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

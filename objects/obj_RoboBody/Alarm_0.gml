@@ -44,42 +44,42 @@ with(obj_RoboArms) image_speed = -1;
 /// @DnDHash : 75A0A429
 /// @DnDApplyTo : {obj_cube}
 /// @DnDArgument : "path" "pth_CharacterRockin_Rev"
-/// @DnDArgument : "speed" "20"
+/// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin_Rev"
-with(obj_cube) path_start(pth_CharacterRockin_Rev, 20, path_action_stop, false);
+with(obj_cube) path_start(pth_CharacterRockin_Rev, 18, path_action_stop, false);
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 1A9200CD
 /// @DnDApplyTo : {obj_BigBorder_back}
 /// @DnDArgument : "path" "pth_CharacterRockin_Rev"
-/// @DnDArgument : "speed" "20"
+/// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin_Rev"
-with(obj_BigBorder_back) path_start(pth_CharacterRockin_Rev, 20, path_action_stop, false);
+with(obj_BigBorder_back) path_start(pth_CharacterRockin_Rev, 18, path_action_stop, false);
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 6215F656
 /// @DnDApplyTo : {obj_BigBorder_front}
 /// @DnDArgument : "path" "pth_CharacterRockin_Rev"
-/// @DnDArgument : "speed" "20"
+/// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin_Rev"
-with(obj_BigBorder_front) path_start(pth_CharacterRockin_Rev, 20, path_action_stop, false);
+with(obj_BigBorder_front) path_start(pth_CharacterRockin_Rev, 18, path_action_stop, false);
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 64CDCFF2
 /// @DnDApplyTo : {obj_BigBorder_left}
 /// @DnDArgument : "path" "pth_CharacterRockin_Rev"
-/// @DnDArgument : "speed" "20"
+/// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin_Rev"
-with(obj_BigBorder_left) path_start(pth_CharacterRockin_Rev, 20, path_action_stop, false);
+with(obj_BigBorder_left) path_start(pth_CharacterRockin_Rev, 18, path_action_stop, false);
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 1FC02BF5
 /// @DnDApplyTo : {obj_BigBorder_right}
 /// @DnDArgument : "path" "pth_CharacterRockin_Rev"
-/// @DnDArgument : "speed" "20"
+/// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin_Rev"
-with(obj_BigBorder_right) path_start(pth_CharacterRockin_Rev, 20, path_action_stop, false);
+with(obj_BigBorder_right) path_start(pth_CharacterRockin_Rev, 18, path_action_stop, false);
