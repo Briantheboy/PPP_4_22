@@ -2374,3 +2374,51 @@ if(room == DoorTest)
 	/// @DnDArgument : "var" "IsayPosition"
 	IsayPosition = "Front";
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4E7E91AA
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "DoorTest48"
+if(room == DoorTest48)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 40716F4A
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 4E7E91AA
+	/// @DnDArgument : "expr" "frontCOLOR"
+	/// @DnDArgument : "var" "sprite_index"
+	with(obj_cube) {
+	sprite_index = frontCOLOR;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 646CFA74
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 4E7E91AA
+	/// @DnDArgument : "expr" "frontALPHA"
+	/// @DnDArgument : "var" "image_alpha"
+	with(obj_cube) {
+	image_alpha = frontALPHA;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6639258E
+	/// @DnDParent : 4E7E91AA
+	/// @DnDArgument : "expr" ""Stuck""
+	/// @DnDArgument : "var" "ControlAccess"
+	ControlAccess = "Stuck";
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 47D2BCA4
+	/// @DnDParent : 4E7E91AA
+	/// @DnDArgument : "expr" ""Front""
+	/// @DnDArgument : "var" "IsayPosition"
+	IsayPosition = "Front";
+}

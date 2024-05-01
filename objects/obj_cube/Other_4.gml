@@ -15,6 +15,53 @@ if(room == warningspace)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 44DB4123
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "DoorTest48"
+if(room == DoorTest48)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Start
+	/// @DnDVersion : 1
+	/// @DnDHash : 5A945AC6
+	/// @DnDParent : 44DB4123
+	x = xstart;
+	y = ystart;
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 028A8342
+	/// @DnDParent : 44DB4123
+	/// @DnDArgument : "x" "1294"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "690"
+	/// @DnDArgument : "y_relative" "1"
+	x += 1294;
+	y += 690;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3FCFC235
+	/// @DnDInput : 2
+	/// @DnDParent : 44DB4123
+	/// @DnDArgument : "expr" "x"
+	/// @DnDArgument : "expr_1" "y"
+	/// @DnDArgument : "var" "RockX"
+	/// @DnDArgument : "var_1" "RockY"
+	RockX = x;
+	RockY = y;
+
+	/// @DnDAction : YoYo Games.Paths.Start_Path
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 49508349
+	/// @DnDParent : 44DB4123
+	/// @DnDArgument : "path" "pth_CharacterRockin"
+	/// @DnDArgument : "speed" "20"
+	/// @DnDSaveInfo : "path" "pth_CharacterRockin"
+	path_start(pth_CharacterRockin, 20, path_action_stop, false);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 18C03F8C
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "Cut_GiveBirth_Act3"

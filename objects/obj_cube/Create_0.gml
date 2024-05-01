@@ -133,3 +133,12 @@ CollBugPatch = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 6A72D43C
 image_angle = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1E0E1CD7
+/// @DnDInput : 2
+/// @DnDArgument : "var" "RockX"
+/// @DnDArgument : "var_1" "RockY"
+RockX = 0;
+RockY = 0;

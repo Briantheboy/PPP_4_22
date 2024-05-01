@@ -25,6 +25,7 @@
     {"name":"inst_75ECBC7E","path":"rooms/DoorTest/DoorTest.yy",},
     {"name":"inst_79DE447A","path":"rooms/DoorTest/DoorTest.yy",},
     {"name":"inst_11501AEF","path":"rooms/DoorTest/DoorTest.yy",},
+    {"name":"inst_163E25B9","path":"rooms/DoorTest/DoorTest.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -49,6 +50,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3F39FB54","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_healthind","path":"objects/obj_healthind/obj_healthind.yy",},"properties":[],"rotation":0.0,"scaleX":0.25401875,"scaleY":0.25401878,"x":1056.0,"y":145.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E94F4B7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_healthind","path":"objects/obj_healthind/obj_healthind.yy",},"properties":[],"rotation":0.0,"scaleX":0.25401875,"scaleY":0.25401878,"x":1056.0,"y":517.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F9285B2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_healthind","path":"objects/obj_healthind/obj_healthind.yy",},"properties":[],"rotation":0.0,"scaleX":0.25401875,"scaleY":0.25401878,"x":1056.0,"y":331.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_163E25B9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_referenceimage","path":"objects/obj_referenceimage/obj_referenceimage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0009288,"x":640.0,"y":384.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Blocks","depth":200,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Border","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

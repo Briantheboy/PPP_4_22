@@ -1,0 +1,25 @@
+{
+  "resourceType": "GMPath",
+  "resourceVersion": "1.0",
+  "name": "pth_CharacterRockin_Right",
+  "closed": false,
+  "kind": 1,
+  "parent": {
+    "name": "Paths",
+    "path": "folders/Paths.yy",
+  },
+  "points": [
+    {"speed":100.0,"x":1670.0,"y":1129.0,},
+    {"speed":100.0,"x":1674.0,"y":1121.0,},
+    {"speed":100.0,"x":1688.0,"y":1119.0,},
+    {"speed":100.0,"x":1695.0,"y":1091.0,},
+    {"speed":100.0,"x":1704.0,"y":1062.0,},
+    {"speed":100.0,"x":1794.0,"y":1047.0,},
+    {"speed":100.0,"x":1848.0,"y":1017.0,},
+    {"speed":100.0,"x":1886.0,"y":995.0,},
+    {"speed":100.0,"x":1895.0,"y":980.0,},
+    {"speed":100.0,"x":1910.0,"y":950.0,},
+    {"speed":100.0,"x":1918.0,"y":943.0,},
+  ],
+  "precision": 4,
+}
