@@ -1,13 +1,15 @@
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 3ED6A738
-image_speed = 1;
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 1B52540C
 /// @DnDApplyTo : {obj_RoboArms}
-with(obj_RoboArms) image_speed = 1;
+/// @DnDArgument : "speed" "global.AnimIncrease"
+with(obj_RoboArms) image_speed = global.AnimIncrease;
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1

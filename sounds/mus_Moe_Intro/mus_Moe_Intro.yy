@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 7.105873,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "CM_Inbetween",
+    "path": "folders/Sounds/CM_Inbetween.yy",
   },
   "preload": false,
   "sampleRate": 44100,

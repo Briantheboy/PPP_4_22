@@ -29,15 +29,15 @@ image_index = 10;
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 46C2F9E0
-/// @DnDArgument : "speed" "-1"
-image_speed = -1;
+/// @DnDArgument : "speed" "-1*(global.AnimIncrease)"
+image_speed = -1*(global.AnimIncrease);
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 2E60CFAC
 /// @DnDApplyTo : {obj_RoboArms}
-/// @DnDArgument : "speed" "-1"
-with(obj_RoboArms) image_speed = -1;
+/// @DnDArgument : "speed" "-1*(global.AnimIncrease)"
+with(obj_RoboArms) image_speed = -1*(global.AnimIncrease);
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1

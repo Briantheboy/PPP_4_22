@@ -12,12 +12,12 @@
   "conversionMode": 0,
   "duration": 5.508413,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "CM_Inbetween",
+    "path": "folders/Sounds/CM_Inbetween.yy",
   },
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "mus_Moe_Lose.wav",
-  "type": 0,
+  "type": 1,
   "volume": 1.0,
 }

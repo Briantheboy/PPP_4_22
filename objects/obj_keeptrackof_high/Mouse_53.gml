@@ -191,22 +191,6 @@ if(room == Cut_9)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 0E7D651A
-/// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "Cut_Pixel"
-if(room == Cut_Pixel)
-{
-	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-	/// @DnDVersion : 1
-	/// @DnDHash : 410E96C5
-	/// @DnDParent : 0E7D651A
-	/// @DnDArgument : "room" "Cut_Pixel"
-	/// @DnDSaveInfo : "room" "Cut_Pixel"
-	room_goto(Cut_Pixel);
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
 /// @DnDHash : 750CBDD6
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "Cut_Text1"
@@ -232,6 +216,22 @@ if(room == Cut_Text2)
 	/// @DnDVersion : 1
 	/// @DnDHash : 15F84F4F
 	/// @DnDParent : 70233492
+	/// @DnDArgument : "room" "Cut_Pixel"
+	/// @DnDSaveInfo : "room" "Cut_Pixel"
+	room_goto(Cut_Pixel);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3660BE3E
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Title_Time"
+if(room == Title_Time)
+{
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 6EE2FCE9
+	/// @DnDParent : 3660BE3E
 	/// @DnDArgument : "room" "Cut_Pixel"
 	/// @DnDSaveInfo : "room" "Cut_Pixel"
 	room_goto(Cut_Pixel);

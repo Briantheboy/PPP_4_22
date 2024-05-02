@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_NewGame",
-    "path": "sprites/spr_NewGame/spr_NewGame.yy",
+    "name": "spr_NewGame_third",
+    "path": "sprites/spr_NewGame_third/spr_NewGame_third.yy",
   },
   "spriteMaskId": null,
   "visible": true,

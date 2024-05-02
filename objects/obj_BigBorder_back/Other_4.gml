@@ -87,9 +87,9 @@ if(room == DoorTest)
 	/// @DnDHash : 0F2F566A
 	/// @DnDParent : 063C72D4
 	/// @DnDArgument : "x" "RockX"
-	/// @DnDArgument : "y" "RockY"
+	/// @DnDArgument : "y" "(RockY)-1500"
 	x = RockX;
-	y = RockY;
+	y = (RockY)-1500;
 
 	/// @DnDAction : YoYo Games.Paths.Stop_Path
 	/// @DnDVersion : 1

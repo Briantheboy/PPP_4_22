@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_NewGame",
-    "path": "sprites/spr_NewGame/spr_NewGame.yy",
+    "name": "spr_NewGame_alt",
+    "path": "sprites/spr_NewGame_alt/spr_NewGame_alt.yy",
   },
   "spriteMaskId": null,
   "visible": true,
