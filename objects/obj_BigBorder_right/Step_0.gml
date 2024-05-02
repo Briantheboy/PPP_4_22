@@ -1,5 +1,56 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 2E39B501
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "DoorTest"
+if(room == DoorTest)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 569DF3C8
+	/// @DnDParent : 2E39B501
+	/// @DnDArgument : "var" "y"
+	/// @DnDArgument : "op" "3"
+	/// @DnDArgument : "value" "940"
+	if(y <= 940)
+	{
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 38C4390F
+		/// @DnDApplyTo : {obj_RoboBody}
+		/// @DnDParent : 569DF3C8
+		/// @DnDArgument : "var" "sprite_index"
+		/// @DnDArgument : "not" "1"
+		/// @DnDArgument : "value" "spr_robo_happy"
+		with(obj_RoboBody) var l38C4390F_0 = sprite_index == spr_robo_happy;
+		if(!l38C4390F_0)
+		{
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 70149C3F
+			/// @DnDApplyTo : {obj_RoboBody}
+			/// @DnDParent : 38C4390F
+			/// @DnDArgument : "var" "sprite_index"
+			/// @DnDArgument : "not" "1"
+			/// @DnDArgument : "value" "spr_robo_lose"
+			with(obj_RoboBody) var l70149C3F_0 = sprite_index == spr_robo_lose;
+			if(!l70149C3F_0)
+			{
+				/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+				/// @DnDVersion : 1
+				/// @DnDHash : 05F75138
+				/// @DnDParent : 70149C3F
+				/// @DnDArgument : "xscale" "0"
+				/// @DnDArgument : "yscale" "0"
+				image_xscale = 0;
+				image_yscale = 0;
+			}
+		}
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 1A8F2369
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "Make"
@@ -21,21 +72,6 @@ if(room == Make)
 		/// @DnDParent : 647DC5C3
 		image_alpha = 1;
 	}
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 3A7EAB0C
-/// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "DoorTest"
-if(room == DoorTest)
-{
-	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
-	/// @DnDVersion : 1
-	/// @DnDHash : 4F5FEEE1
-	/// @DnDParent : 3A7EAB0C
-	/// @DnDArgument : "alpha" "0"
-	image_alpha = 0;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

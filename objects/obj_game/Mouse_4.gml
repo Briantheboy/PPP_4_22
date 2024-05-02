@@ -75,19 +75,18 @@ if(!l17ADF860_0)
 				/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 				/// @DnDVersion : 1
 				/// @DnDHash : 58873884
-				/// @DnDDisabled : 1
 				/// @DnDParent : 77D45C30
 				/// @DnDArgument : "room" "Cut_GiveBirth"
 				/// @DnDSaveInfo : "room" "Cut_GiveBirth"
-			
+				room_goto(Cut_GiveBirth);
 			
 				/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 				/// @DnDVersion : 1
 				/// @DnDHash : 09ABF77C
+				/// @DnDDisabled : 1
 				/// @DnDParent : 77D45C30
 				/// @DnDArgument : "room" "DoorTest48"
 				/// @DnDSaveInfo : "room" "DoorTest48"
-				room_goto(DoorTest48);
 			}
 		
 			/// @DnDAction : YoYo Games.Instances.If_Instance_Exists

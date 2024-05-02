@@ -5,6 +5,81 @@ path_end();
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 16E50CD7
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "DoorTest"
+if(room == DoorTest)
+{
+	/// @DnDAction : YoYo Games.Paths.Stop_Path
+	/// @DnDVersion : 1
+	/// @DnDHash : 4A8862E1
+	/// @DnDParent : 16E50CD7
+	path_end();
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Start
+	/// @DnDVersion : 1
+	/// @DnDHash : 20622ACC
+	/// @DnDParent : 16E50CD7
+	x = xstart;
+	y = ystart;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 073CC2FB
+	/// @DnDParent : 16E50CD7
+	/// @DnDArgument : "var" "path_speed"
+	path_speed = 0;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 33AEAEA9
+	/// @DnDParent : 16E50CD7
+	direction = point_direction(x, y, 0, 0);
+
+	/// @DnDAction : YoYo Games.Movement.Set_Gravity_Force
+	/// @DnDVersion : 1
+	/// @DnDHash : 73814ABA
+	/// @DnDParent : 16E50CD7
+	/// @DnDArgument : "force" "0"
+	gravity = 0;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 1F05322A
+	/// @DnDParent : 16E50CD7
+	speed = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+	/// @DnDVersion : 1
+	/// @DnDHash : 1B47F764
+	/// @DnDParent : 16E50CD7
+	image_angle = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 64C0C419
+	/// @DnDParent : 16E50CD7
+	image_xscale = 1;
+	image_yscale = 1;
+
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+	/// @DnDVersion : 1
+	/// @DnDHash : 1ECBA01D
+	/// @DnDParent : 16E50CD7
+	/// @DnDArgument : "state" "3"
+	timeline_running = false;
+	timeline_position = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 4330F3BA
+	/// @DnDParent : 16E50CD7
+	image_blend = $FFFFFFFF & $ffffff;
+	image_alpha = ($FFFFFFFF >> 24) / $ff;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 6E6CECBD
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "FIREWORK"

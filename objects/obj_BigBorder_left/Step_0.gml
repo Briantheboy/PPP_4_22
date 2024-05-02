@@ -1,5 +1,56 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 03412B3E
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "DoorTest"
+if(room == DoorTest)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 33CED7AC
+	/// @DnDParent : 03412B3E
+	/// @DnDArgument : "var" "y"
+	/// @DnDArgument : "op" "3"
+	/// @DnDArgument : "value" "940"
+	if(y <= 940)
+	{
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 41F164E5
+		/// @DnDApplyTo : {obj_RoboBody}
+		/// @DnDParent : 33CED7AC
+		/// @DnDArgument : "var" "sprite_index"
+		/// @DnDArgument : "not" "1"
+		/// @DnDArgument : "value" "spr_robo_happy"
+		with(obj_RoboBody) var l41F164E5_0 = sprite_index == spr_robo_happy;
+		if(!l41F164E5_0)
+		{
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 55B4EAA5
+			/// @DnDApplyTo : {obj_RoboBody}
+			/// @DnDParent : 41F164E5
+			/// @DnDArgument : "var" "sprite_index"
+			/// @DnDArgument : "not" "1"
+			/// @DnDArgument : "value" "spr_robo_lose"
+			with(obj_RoboBody) var l55B4EAA5_0 = sprite_index == spr_robo_lose;
+			if(!l55B4EAA5_0)
+			{
+				/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+				/// @DnDVersion : 1
+				/// @DnDHash : 63D92A18
+				/// @DnDParent : 55B4EAA5
+				/// @DnDArgument : "xscale" "0"
+				/// @DnDArgument : "yscale" "0"
+				image_xscale = 0;
+				image_yscale = 0;
+			}
+		}
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 12BD69B2
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "Make"
@@ -21,21 +72,6 @@ if(room == Make)
 		/// @DnDParent : 2D3C3611
 		image_alpha = 1;
 	}
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 20006679
-/// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "DoorTest"
-if(room == DoorTest)
-{
-	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
-	/// @DnDVersion : 1
-	/// @DnDHash : 78DB16E3
-	/// @DnDParent : 20006679
-	/// @DnDArgument : "alpha" "0"
-	image_alpha = 0;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

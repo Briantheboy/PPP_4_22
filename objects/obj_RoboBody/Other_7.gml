@@ -37,4 +37,22 @@ if(image_speed == 1)
 		/// @DnDArgument : "alarm" "2"
 		alarm_set(2, 1);
 	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2F881C2F
+	/// @DnDParent : 7DFA69CC
+	/// @DnDArgument : "var" "sprite_index"
+	/// @DnDArgument : "value" "spr_RoboBody_StartEat"
+	if(sprite_index == spr_RoboBody_StartEat)
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 4E5AE9BC
+		/// @DnDParent : 2F881C2F
+		/// @DnDArgument : "spriteind" "spr_RoboBody_Eating"
+		/// @DnDSaveInfo : "spriteind" "spr_RoboBody_Eating"
+		sprite_index = spr_RoboBody_Eating;
+		image_index = 0;
+	}
 }
