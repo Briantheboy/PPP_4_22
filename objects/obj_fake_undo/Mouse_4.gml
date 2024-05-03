@@ -26,6 +26,14 @@ if(!l7FE9043B_0)
 	l2831DB2C_0 = instance_exists(obj_screen_dimmer);
 	if(!l2831DB2C_0)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 62E29458
+		/// @DnDParent : 2831DB2C
+		/// @DnDArgument : "soundid" "sou_bounce4"
+		/// @DnDSaveInfo : "soundid" "sou_bounce4"
+		audio_play_sound(sou_bounce4, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 0AED5057

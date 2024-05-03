@@ -28,9 +28,9 @@ if(TalkValue == 3)
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 468B8805
 	/// @DnDParent : 1C108E18
-	/// @DnDArgument : "soundid" "sou_bloodsquirt"
-	/// @DnDSaveInfo : "soundid" "sou_bloodsquirt"
-	audio_play_sound(sou_bloodsquirt, 0, 0, 1.0, undefined, 1.0);
+	/// @DnDArgument : "soundid" "sou_contdialogue"
+	/// @DnDSaveInfo : "soundid" "sou_contdialogue"
+	audio_play_sound(sou_contdialogue, 0, 0, 1.0, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -165,9 +165,9 @@ if(TalkValue == 2)
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 1A98EACB
 	/// @DnDParent : 0432484C
-	/// @DnDArgument : "soundid" "sou_bloodsquirt"
-	/// @DnDSaveInfo : "soundid" "sou_bloodsquirt"
-	audio_play_sound(sou_bloodsquirt, 0, 0, 1.0, undefined, 1.0);
+	/// @DnDArgument : "soundid" "sou_contdialogue"
+	/// @DnDSaveInfo : "soundid" "sou_contdialogue"
+	audio_play_sound(sou_contdialogue, 0, 0, 1.0, undefined, 1.0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -200,9 +200,9 @@ if(TalkValue == 1)
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 232C90CA
 	/// @DnDParent : 38977ACB
-	/// @DnDArgument : "soundid" "sou_bloodsquirt"
-	/// @DnDSaveInfo : "soundid" "sou_bloodsquirt"
-	audio_play_sound(sou_bloodsquirt, 0, 0, 1.0, undefined, 1.0);
+	/// @DnDArgument : "soundid" "sou_contdialogue"
+	/// @DnDSaveInfo : "soundid" "sou_contdialogue"
+	audio_play_sound(sou_contdialogue, 0, 0, 1.0, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -275,9 +275,9 @@ if(TalkValue == 0)
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 477C1B3F
 	/// @DnDParent : 6D117AB4
-	/// @DnDArgument : "soundid" "sou_bloodsquirt"
-	/// @DnDSaveInfo : "soundid" "sou_bloodsquirt"
-	audio_play_sound(sou_bloodsquirt, 0, 0, 1.0, undefined, 1.0);
+	/// @DnDArgument : "soundid" "sou_contdialogue"
+	/// @DnDSaveInfo : "soundid" "sou_contdialogue"
+	audio_play_sound(sou_contdialogue, 0, 0, 1.0, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 	/// @DnDVersion : 1

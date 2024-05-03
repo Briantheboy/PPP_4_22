@@ -222,5 +222,14 @@ if(!l0D91BEF8_0)
 		sprite_index = spr_erasesel_open;
 		image_index = 0;
 		}
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 450E1F93
+		/// @DnDParent : 58CA5548
+		/// @DnDArgument : "soundid" "sou_blockpress"
+		/// @DnDArgument : "pitch" "random_range(0.75,1.25)"
+		/// @DnDSaveInfo : "soundid" "sou_blockpress"
+		audio_play_sound(sou_blockpress, 0, 0, 1.0, undefined, random_range(0.75,1.25));
 	}
 }
