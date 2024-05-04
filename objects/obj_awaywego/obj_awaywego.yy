@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Minigames",
-    "path": "folders/Rooms/Minigames.yy",
+    "name": "WW_InBetween",
+    "path": "folders/Objects/WW_InBetween.yy",
   },
   "parentObjectId": null,
   "persistent": false,

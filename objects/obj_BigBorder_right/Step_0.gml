@@ -14,37 +14,26 @@ if(room == DoorTest)
 	/// @DnDArgument : "value" "940"
 	if(y <= 940)
 	{
-		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDAction : YoYo Games.Instance Variables.If_Lives
 		/// @DnDVersion : 1
-		/// @DnDHash : 38C4390F
+		/// @DnDHash : 11B210A2
 		/// @DnDApplyTo : {obj_RoboBody}
 		/// @DnDParent : 569DF3C8
-		/// @DnDArgument : "var" "sprite_index"
-		/// @DnDArgument : "not" "1"
-		/// @DnDArgument : "value" "spr_robo_happy"
-		with(obj_RoboBody) var l38C4390F_0 = sprite_index == spr_robo_happy;
-		if(!l38C4390F_0)
+		/// @DnDArgument : "value" "1"
+		with(obj_RoboBody) {
+		if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
+		var l11B210A2_0 = __dnd_lives == 1;
+		}
+		if(l11B210A2_0)
 		{
-			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 			/// @DnDVersion : 1
-			/// @DnDHash : 70149C3F
-			/// @DnDApplyTo : {obj_RoboBody}
-			/// @DnDParent : 38C4390F
-			/// @DnDArgument : "var" "sprite_index"
-			/// @DnDArgument : "not" "1"
-			/// @DnDArgument : "value" "spr_robo_lose"
-			with(obj_RoboBody) var l70149C3F_0 = sprite_index == spr_robo_lose;
-			if(!l70149C3F_0)
-			{
-				/// @DnDAction : YoYo Games.Instances.Sprite_Scale
-				/// @DnDVersion : 1
-				/// @DnDHash : 05F75138
-				/// @DnDParent : 70149C3F
-				/// @DnDArgument : "xscale" "0"
-				/// @DnDArgument : "yscale" "0"
-				image_xscale = 0;
-				image_yscale = 0;
-			}
+			/// @DnDHash : 5EF7591A
+			/// @DnDParent : 11B210A2
+			/// @DnDArgument : "xscale" "0"
+			/// @DnDArgument : "yscale" "0"
+			image_xscale = 0;
+			image_yscale = 0;
 		}
 	}
 }

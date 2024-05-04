@@ -87,9 +87,9 @@ if(room == DoorTest)
 	/// @DnDHash : 59F706C1
 	/// @DnDParent : 063C72D4
 	/// @DnDArgument : "x" "RockX"
-	/// @DnDArgument : "y" "(RockY)-1500"
+	/// @DnDArgument : "y" "(RockY)-2500"
 	x = RockX;
-	y = (RockY)-1500;
+	y = (RockY)-2500;
 
 	/// @DnDAction : YoYo Games.Paths.Stop_Path
 	/// @DnDVersion : 1
@@ -144,21 +144,15 @@ if(room == DoorTest)
 	timeline_running = false;
 	timeline_position = 0;
 
-	/// @DnDAction : YoYo Games.Instances.Color_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 51FF6866
-	/// @DnDParent : 063C72D4
-	image_blend = $FFFFFFFF & $ffffff;
-	image_alpha = ($FFFFFFFF >> 24) / $ff;
-
 	/// @DnDAction : YoYo Games.Paths.Start_Path
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 541FD3F0
+	/// @DnDDisabled : 1
 	/// @DnDParent : 063C72D4
 	/// @DnDArgument : "path" "pth_CharacterRockin"
 	/// @DnDArgument : "speed" "18"
 	/// @DnDSaveInfo : "path" "pth_CharacterRockin"
-	path_start(pth_CharacterRockin, 18, path_action_stop, false);
+
 
 	/// @DnDAction : YoYo Games.Particles.Part_Syst_Destroy
 	/// @DnDVersion : 1.1

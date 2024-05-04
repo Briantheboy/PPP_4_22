@@ -275,9 +275,9 @@ if(room == DoorTest)
 	/// @DnDHash : 5AB54E34
 	/// @DnDParent : 0A96B31C
 	/// @DnDArgument : "x" "RockX"
-	/// @DnDArgument : "y" "(RockY)-1500"
+	/// @DnDArgument : "y" "(RockY)-2500"
 	x = RockX;
-	y = (RockY)-1500;
+	y = (RockY)-2500;
 
 	/// @DnDAction : YoYo Games.Paths.Stop_Path
 	/// @DnDVersion : 1
@@ -342,11 +342,12 @@ if(room == DoorTest)
 	/// @DnDAction : YoYo Games.Paths.Start_Path
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 2D96B7AE
+	/// @DnDDisabled : 1
 	/// @DnDParent : 0A96B31C
 	/// @DnDArgument : "path" "pth_CharacterRockin"
 	/// @DnDArgument : "speed" "18"
 	/// @DnDSaveInfo : "path" "pth_CharacterRockin"
-	path_start(pth_CharacterRockin, 18, path_action_stop, false);
+
 
 	/// @DnDAction : YoYo Games.Particles.Part_Syst_Destroy
 	/// @DnDVersion : 1.1

@@ -56,6 +56,13 @@ image_blend = $FFFFFFFF & $ffffff;
 image_alpha = ($FFFFFFFF >> 24) / $ff;
 }
 
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 4F360E9C
+/// @DnDArgument : "steps" "155"
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 155);
+
 /// @DnDAction : YoYo Games.Audio.Stop_Audio
 /// @DnDVersion : 1
 /// @DnDHash : 67249D09
@@ -66,6 +73,6 @@ audio_stop_sound(sou_aud_murmur);
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 50481B1A
+/// @DnDDisabled : 1
 /// @DnDArgument : "soundid" "sou_aud_cheer"
 /// @DnDSaveInfo : "soundid" "sou_aud_cheer"
-audio_play_sound(sou_aud_cheer, 0, 0, 1.0, undefined, 1.0);

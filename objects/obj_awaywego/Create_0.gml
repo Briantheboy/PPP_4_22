@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 14F36B4F
+/// @DnDArgument : "alpha" "0"
+image_alpha = 0;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5BE7797E
@@ -66,6 +72,6 @@ if(image_xscale == 4)
 /// @DnDArgument : "xpos_relative" "1"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "obj_command"
-/// @DnDArgument : "layer" ""Command""
+/// @DnDArgument : "layer" ""Command1""
 /// @DnDSaveInfo : "objectid" "obj_command"
-instance_create_layer(x + 0, y + 0, "Command", obj_command);
+instance_create_layer(x + 0, y + 0, "Command1", obj_command);

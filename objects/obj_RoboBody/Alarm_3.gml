@@ -232,3 +232,16 @@ if point_distance(x, y, target.x, target.y) > 35
 else speed = 0;
 
 }
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+/// @DnDVersion : 1
+/// @DnDHash : 1E7D3334
+/// @DnDArgument : "lives" "1"
+
+__dnd_lives = real(1);
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 3AF5928E
+/// @DnDArgument : "alarm" "4"
+alarm_set(4, 30);

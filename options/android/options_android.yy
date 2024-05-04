@@ -39,7 +39,7 @@
   "option_android_icon_xxxhdpi": "icons/xxxhdpi.png",
   "option_android_install_location": 0,
   "option_android_interpolate_pixels": false,
-  "option_android_launchscreen_fill": 0,
+  "option_android_launchscreen_fill": 1,
   "option_android_lint": false,
   "option_android_logcat": "yoyo:V DEBUG:V AndroidRuntime:V",
   "option_android_minimum_sdk": "",
