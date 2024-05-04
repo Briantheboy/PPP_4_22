@@ -9,8 +9,8 @@ if(room == NOW_LOADING)
 	/// @DnDVersion : 1
 	/// @DnDHash : 75AC4FAE
 	/// @DnDParent : 466DE6FF
-	/// @DnDArgument : "steps" "360"
-	alarm_set(0, 360);
+	/// @DnDArgument : "steps" "300"
+	alarm_set(0, 300);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

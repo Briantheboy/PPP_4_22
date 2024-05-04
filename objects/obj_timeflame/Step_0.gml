@@ -83,10 +83,10 @@ if(!l4038EF65_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 52E5B469
 		/// @DnDParent : 539EB5E8
-		/// @DnDArgument : "x" "-12"
+		/// @DnDArgument : "x" "-8"
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y_relative" "1"
-		x += -12;
+		x += -8;
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
