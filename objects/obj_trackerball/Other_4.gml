@@ -286,3 +286,24 @@ if(room == MARIO)
 	/// @DnDArgument : "var" "TrackNumber"
 	TrackNumber += 1;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0179BA20
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "gameover"
+if(room == gameover)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 7FDAEDE5
+	/// @DnDParent : 0179BA20
+	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 02C51E96
+	/// @DnDApplyTo : {obj_checker_end}
+	/// @DnDParent : 0179BA20
+	with(obj_checker_end) instance_destroy();
+}

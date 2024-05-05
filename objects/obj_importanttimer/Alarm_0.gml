@@ -77,15 +77,12 @@ if(!(room == gameover))
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
 		/// @DnDHash : 0A91FEEA
+		/// @DnDDisabled : 1
 		/// @DnDApplyTo : {obj_trackerball}
 		/// @DnDParent : 3D1B27DF
 		/// @DnDArgument : "x" "25"
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y_relative" "1"
-		with(obj_trackerball) {
-		x += 25;
-		
-		}
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -113,15 +110,12 @@ if(!(room == gameover))
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
 		/// @DnDHash : 299DDCBC
+		/// @DnDDisabled : 1
 		/// @DnDApplyTo : {obj_trackerball}
 		/// @DnDParent : 3ADA51AB
 		/// @DnDArgument : "x" "25"
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y_relative" "1"
-		with(obj_trackerball) {
-		x += 25;
-		
-		}
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable

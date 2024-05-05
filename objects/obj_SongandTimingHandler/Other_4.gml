@@ -18,8 +18,9 @@ if(l5898EE8F_0)
 	/// @DnDHash : 705C3194
 	/// @DnDParent : 5898EE8F
 	/// @DnDArgument : "soundid" "mus_Moe_Intro"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "mus_Moe_Intro"
-	audio_play_sound(mus_Moe_Intro, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(mus_Moe_Intro, 0, 0, 1.0, undefined, global.SonofaPITCH);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
@@ -33,8 +34,9 @@ if(l5898EE8F_0)
 	/// @DnDHash : 3044B0E1
 	/// @DnDParent : 5898EE8F
 	/// @DnDArgument : "soundid" "sou_aud_murmur"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_aud_murmur"
-	audio_play_sound(sou_aud_murmur, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_aud_murmur, 0, 0, 1.0, undefined, global.SonofaPITCH);
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
@@ -109,8 +111,9 @@ if(l6F0E1698_0)
 		/// @DnDHash : 2567DAE8
 		/// @DnDParent : 0DF48D09
 		/// @DnDArgument : "soundid" "mus_Moe_Win"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "mus_Moe_Win"
-		audio_play_sound(mus_Moe_Win, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(mus_Moe_Win, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
@@ -212,8 +215,9 @@ if(l6F0E1698_0)
 		/// @DnDHash : 2607B479
 		/// @DnDParent : 6C20E952
 		/// @DnDArgument : "soundid" "mus_Moe_Lose"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "mus_Moe_Lose"
-		audio_play_sound(mus_Moe_Lose, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(mus_Moe_Lose, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1

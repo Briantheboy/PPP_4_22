@@ -21,3 +21,9 @@ timeline_position = 0;
 /// @DnDHash : 4477CD51
 /// @DnDApplyTo : {obj_screen_dimmer}
 with(obj_screen_dimmer) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 081B4E1B
+/// @DnDApplyTo : {obj_LazyFix}
+with(obj_LazyFix) instance_destroy();

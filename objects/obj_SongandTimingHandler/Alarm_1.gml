@@ -212,3 +212,26 @@ y = RockY;
 /// @DnDArgument : "speed" "18"
 /// @DnDSaveInfo : "path" "pth_CharacterRockin"
 with(obj_BigBorder_right) path_start(pth_CharacterRockin, 18, path_action_stop, false);
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 16FBA75C
+/// @DnDApplyTo : {obj_numberondoor}
+/// @DnDArgument : "var" "MinigamePoints"
+/// @DnDArgument : "op" "2"
+with(obj_numberondoor) var l16FBA75C_0 = MinigamePoints > 0;
+if(l16FBA75C_0)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 59961813
+	/// @DnDApplyTo : {obj_trackerball}
+	/// @DnDParent : 16FBA75C
+	/// @DnDArgument : "x" "25"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_trackerball) {
+	x += 25;
+	
+	}
+}

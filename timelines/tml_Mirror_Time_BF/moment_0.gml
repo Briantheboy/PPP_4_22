@@ -9,6 +9,16 @@
 /// @DnDSaveInfo : "objectid" "obj_screen_dimmer"
 instance_create_layer(x + 10000, y + 0, "Border", obj_screen_dimmer);
 
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 3D91A72F
+/// @DnDArgument : "xpos" "640"
+/// @DnDArgument : "ypos" "444"
+/// @DnDArgument : "objectid" "obj_LazyFix"
+/// @DnDArgument : "layer" ""Command""
+/// @DnDSaveInfo : "objectid" "obj_LazyFix"
+instance_create_layer(640, 444, "Command", obj_LazyFix);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 18841963

@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.578667,
+  "duration": 1.996938,
   "parent": {
     "name": "VoiceClips",
     "path": "folders/Sounds/VoiceClips.yy",
