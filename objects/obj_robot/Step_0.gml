@@ -37,9 +37,9 @@ if(l4A879F14_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 76CE305D
 	/// @DnDParent : 4A879F14
-	/// @DnDArgument : "spriteind" "spr_robo_happy"
-	/// @DnDSaveInfo : "spriteind" "spr_robo_happy"
-	sprite_index = spr_robo_happy;
+	/// @DnDArgument : "spriteind" "spr_greencube"
+	/// @DnDSaveInfo : "spriteind" "spr_greencube"
+	sprite_index = spr_greencube;
 	image_index = 0;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
@@ -159,9 +159,9 @@ if(l5E8B10AB_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 08F3FFD0
 	/// @DnDParent : 5E8B10AB
-	/// @DnDArgument : "spriteind" "spr_robo_lose"
-	/// @DnDSaveInfo : "spriteind" "spr_robo_lose"
-	sprite_index = spr_robo_lose;
+	/// @DnDArgument : "spriteind" "spr_bluecube"
+	/// @DnDSaveInfo : "spriteind" "spr_bluecube"
+	sprite_index = spr_bluecube;
 	image_index = 0;
 
 	/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch

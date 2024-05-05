@@ -436,4 +436,23 @@ if(room == DoorTest)
 	/// @DnDArgument : "soundid" "sou_Rea_lose"
 	/// @DnDSaveInfo : "soundid" "sou_Rea_lose"
 	audio_stop_sound(sou_Rea_lose);
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 27ADF752
+	/// @DnDParent : 0CDD4EDE
+	/// @DnDArgument : "var" "MinigamePoints"
+	/// @DnDArgument : "op" "2"
+	if(MinigamePoints > 0)
+	{
+		/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+		/// @DnDVersion : 1
+		/// @DnDHash : 714A087B
+		/// @DnDParent : 27ADF752
+		/// @DnDArgument : "timeline" "tml_StartBigbutsmall"
+		/// @DnDSaveInfo : "timeline" "tml_StartBigbutsmall"
+		timeline_index = tml_StartBigbutsmall;
+		timeline_loop = 0;
+		timeline_running = 1;
+	}
 }

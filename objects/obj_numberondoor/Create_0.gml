@@ -18,6 +18,15 @@ LevelSelect = 1;
 /// @DnDArgument : "var" "fontBubble1"
 fontBubble1 = font_add_sprite_ext(spr_Ui_SpriteFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZ.!_+-0123456789", true, 0 );
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4C7D9AA2
+/// @DnDInput : 2
+/// @DnDArgument : "var" "ScaleHelper"
+/// @DnDArgument : "var_1" "RotHelper"
+ScaleHelper = 0;
+RotHelper = 0;
+
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 03CDF703

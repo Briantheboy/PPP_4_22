@@ -1,8 +1,16 @@
-/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
-/// @DnDHash : 272DFB39
-/// @DnDArgument : "timeline" "tml_ResetWorld"
-/// @DnDSaveInfo : "timeline" "tml_ResetWorld"
-timeline_index = tml_ResetWorld;
-timeline_loop = 0;
-timeline_running = 1;
+/// @DnDHash : 530A5F7A
+/// @DnDArgument : "obj" "obj_saving"
+/// @DnDArgument : "not" "1"
+/// @DnDSaveInfo : "obj" "obj_saving"
+var l530A5F7A_0 = false;
+l530A5F7A_0 = instance_exists(obj_saving);
+if(!l530A5F7A_0)
+{
+	/// @DnDAction : YoYo Games.Game.End_Game
+	/// @DnDVersion : 1
+	/// @DnDHash : 59FBFC6C
+	/// @DnDParent : 530A5F7A
+	game_end();
+}

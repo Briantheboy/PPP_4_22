@@ -1,3 +1,27 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 5AA20A0F
+/// @DnDArgument : "code" "layer_destroy("Lose_1");$(13_10)layer_destroy("Lose_2");$(13_10)layer_destroy("Win_1");$(13_10)layer_destroy("Win_2");$(13_10)layer_destroy("Win_3");$(13_10)layer_destroy("Win_4");$(13_10)layer_destroy("Win_Shake");"
+layer_destroy("Lose_1");
+layer_destroy("Lose_2");
+layer_destroy("Win_1");
+layer_destroy("Win_2");
+layer_destroy("Win_3");
+layer_destroy("Win_4");
+layer_destroy("Win_Shake");
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 2E407450
+/// @DnDApplyTo : {obj_RoboBody}
+with(obj_RoboBody) image_alpha = 1;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 08CA8D9B
+/// @DnDApplyTo : {obj_RoboArms}
+with(obj_RoboArms) image_alpha = 1;
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 670EB8C4

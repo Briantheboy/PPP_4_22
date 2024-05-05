@@ -29,13 +29,26 @@ if(room == DoorTest)
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+	/// @DnDVersion : 1
+	/// @DnDHash : 0E714A73
+	/// @DnDParent : 3450E62A
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "xscale" "ScaleHelper+(random_range(0.99,1.1))"
+	/// @DnDArgument : "yscale" "ScaleHelper+(random_range(0.99,1.1))"
+	/// @DnDArgument : "caption" """"
+	/// @DnDArgument : "text" "MinigamePoints"
+	/// @DnDArgument : "angle" "RotHelper"
+	draw_text_transformed(x + 0, y + 0, string("") + string(MinigamePoints), ScaleHelper+(random_range(0.99,1.1)), ScaleHelper+(random_range(0.99,1.1)), RotHelper);
+
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
 	/// @DnDHash : 69D3D4DE
+	/// @DnDDisabled : 1
 	/// @DnDParent : 3450E62A
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "caption" """"
 	/// @DnDArgument : "var" "MinigamePoints"
-	draw_text(x + 0, y + 0, string("") + string(MinigamePoints));
 }

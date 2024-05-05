@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_robo_still",
-    "path": "sprites/spr_robo_still/spr_robo_still.yy",
+    "name": "spr_redcube",
+    "path": "sprites/spr_redcube/spr_redcube.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -73,6 +73,13 @@ audio_stop_sound(sou_aud_murmur);
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 50481B1A
-/// @DnDDisabled : 1
 /// @DnDArgument : "soundid" "sou_aud_cheer"
 /// @DnDSaveInfo : "soundid" "sou_aud_cheer"
+audio_play_sound(sou_aud_cheer, 0, 0, 1.0, undefined, 1.0);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 3DBB2518
+/// @DnDArgument : "soundid" "sou_spotlight"
+/// @DnDSaveInfo : "soundid" "sou_spotlight"
+audio_play_sound(sou_spotlight, 0, 0, 1.0, undefined, 1.0);
