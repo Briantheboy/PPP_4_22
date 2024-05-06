@@ -54,6 +54,14 @@ if(l407FED8B_0)
 	/// @DnDArgument : "value" "spr_reaction_lose"
 	if(!(sprite_index == spr_reaction_lose))
 	{
+		/// @DnDAction : YoYo Games.Audio.Stop_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 04D112DD
+		/// @DnDParent : 6E4CD101
+		/// @DnDArgument : "soundid" "mus_ripple"
+		/// @DnDSaveInfo : "soundid" "mus_ripple"
+		audio_stop_sound(mus_ripple);
+	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
 		/// @DnDHash : 0B28A526

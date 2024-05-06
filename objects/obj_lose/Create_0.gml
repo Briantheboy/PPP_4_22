@@ -116,6 +116,14 @@ if(room == CASINO)
 	/// @DnDSaveInfo : "soundid" "sou_slotlose"
 	audio_play_sound(sou_slotlose, 0, 0, 1.0, undefined, global.SonofaPITCH);
 
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 089BBC3B
+	/// @DnDParent : 2A170BE9
+	/// @DnDArgument : "soundid" "mus_CASINO"
+	/// @DnDSaveInfo : "soundid" "mus_CASINO"
+	audio_stop_sound(mus_CASINO);
+
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 70343403
