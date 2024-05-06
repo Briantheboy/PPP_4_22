@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 0EA66809
+/// @DnDArgument : "soundid" "mus_Collect"
+/// @DnDSaveInfo : "soundid" "mus_Collect"
+audio_stop_sound(mus_Collect);
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 65ADA2EE

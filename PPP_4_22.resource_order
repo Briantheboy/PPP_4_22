@@ -1106,6 +1106,7 @@
     {"name":"obj_LoadGame","order":12,"path":"objects/obj_LoadGame/obj_LoadGame.yy",},
     {"name":"spr_Ui_SpriteFont","order":5,"path":"sprites/spr_Ui_SpriteFont/spr_Ui_SpriteFont.yy",},
     {"name":"tml_Fireworkcolors_alt","order":54,"path":"timelines/tml_Fireworkcolors_alt/tml_Fireworkcolors_alt.yy",},
+    {"name":"mus_Collect","order":4,"path":"sounds/mus_Collect/mus_Collect.yy",},
     {"name":"obj_phrase","order":6,"path":"objects/obj_phrase/obj_phrase.yy",},
     {"name":"obj_House_5","order":14,"path":"objects/obj_House_5/obj_House_5.yy",},
     {"name":"ChooseExample","order":6,"path":"rooms/ChooseExample/ChooseExample.yy",},

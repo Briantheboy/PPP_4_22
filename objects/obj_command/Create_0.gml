@@ -203,6 +203,15 @@ if(room == COLLECT)
 	/// @DnDSaveInfo : "spriteind" "spr_collect"
 	sprite_index = spr_collect;
 	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 6A8A3CFB
+	/// @DnDParent : 32993A39
+	/// @DnDArgument : "soundid" "mus_Collect"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
+	/// @DnDSaveInfo : "soundid" "mus_Collect"
+	audio_play_sound(mus_Collect, 0, 0, 1.0, undefined, global.SonofaPITCH);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

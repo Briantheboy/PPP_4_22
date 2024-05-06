@@ -36,9 +36,9 @@ if(!(room == gameover))
 	/// @DnDHash : 2EC99AF7
 	/// @DnDApplyTo : {obj_trackerball}
 	/// @DnDParent : 4D84945D
-	/// @DnDArgument : "room" "LOOKAWAY"
-	/// @DnDSaveInfo : "room" "LOOKAWAY"
-	with(obj_trackerball) room_goto(LOOKAWAY);
+	/// @DnDArgument : "room" "FLASHLIGHT"
+	/// @DnDSaveInfo : "room" "FLASHLIGHT"
+	with(obj_trackerball) room_goto(FLASHLIGHT);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

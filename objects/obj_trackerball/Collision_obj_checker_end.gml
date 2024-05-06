@@ -49,8 +49,8 @@ with(obj_checker_rip) instance_destroy();
 /// @DnDApplyTo : {obj_numberondoor}
 /// @DnDArgument : "var" "MinigamePoints"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "26"
-with(obj_numberondoor) var l5CFBF41D_0 = MinigamePoints < 26;
+/// @DnDArgument : "value" "23"
+with(obj_numberondoor) var l5CFBF41D_0 = MinigamePoints < 23;
 if(l5CFBF41D_0)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance

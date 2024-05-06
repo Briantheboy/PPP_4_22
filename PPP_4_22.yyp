@@ -1205,6 +1205,7 @@
     {"id":{"name":"voi_Bad1","path":"sounds/voi_Bad1/voi_Bad1.yy",},},
     {"id":{"name":"spr_Ui_SpriteFont","path":"sprites/spr_Ui_SpriteFont/spr_Ui_SpriteFont.yy",},},
     {"id":{"name":"tml_Fireworkcolors_alt","path":"timelines/tml_Fireworkcolors_alt/tml_Fireworkcolors_alt.yy",},},
+    {"id":{"name":"mus_Collect","path":"sounds/mus_Collect/mus_Collect.yy",},},
     {"id":{"name":"spr_Puy_TalkBubble","path":"sprites/spr_Puy_TalkBubble/spr_Puy_TalkBubble.yy",},},
     {"id":{"name":"obj_phrase","path":"objects/obj_phrase/obj_phrase.yy",},},
     {"id":{"name":"obj_House_5","path":"objects/obj_House_5/obj_House_5.yy",},},
