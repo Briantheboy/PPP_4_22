@@ -18,9 +18,9 @@ if(l5898EE8F_0)
 	/// @DnDHash : 705C3194
 	/// @DnDParent : 5898EE8F
 	/// @DnDArgument : "soundid" "mus_Moe_Intro"
-	/// @DnDArgument : "pitch" "global.SonofaPITCH"
+	/// @DnDArgument : "pitch" "1"
 	/// @DnDSaveInfo : "soundid" "mus_Moe_Intro"
-	audio_play_sound(mus_Moe_Intro, 0, 0, 1.0, undefined, global.SonofaPITCH);
+	audio_play_sound(mus_Moe_Intro, 0, 0, 1.0, undefined, 1);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
@@ -111,9 +111,9 @@ if(l6F0E1698_0)
 		/// @DnDHash : 2567DAE8
 		/// @DnDParent : 0DF48D09
 		/// @DnDArgument : "soundid" "mus_Moe_Win"
-		/// @DnDArgument : "pitch" "global.SonofaPITCH"
+		/// @DnDArgument : "pitch" "global.MusicPitch"
 		/// @DnDSaveInfo : "soundid" "mus_Moe_Win"
-		audio_play_sound(mus_Moe_Win, 0, 0, 1.0, undefined, global.SonofaPITCH);
+		audio_play_sound(mus_Moe_Win, 0, 0, 1.0, undefined, global.MusicPitch);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
@@ -151,6 +151,22 @@ if(l6F0E1698_0)
 		/// @DnDArgument : "speed" "global.AnimIncrease"
 		with(obj_RoboArms) image_speed = global.AnimIncrease;
 	
+		/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
+		/// @DnDVersion : 1
+		/// @DnDHash : 5E509597
+		/// @DnDParent : 0DF48D09
+		/// @DnDArgument : "sound" "mus_Moe_Win"
+		/// @DnDSaveInfo : "sound" "mus_Moe_Win"
+		audio_sound_pitch(mus_Moe_Win, 1);
+	
+		/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
+		/// @DnDVersion : 1
+		/// @DnDHash : 336AA3EA
+		/// @DnDParent : 0DF48D09
+		/// @DnDArgument : "sound" "mus_Moe_Lose"
+		/// @DnDSaveInfo : "sound" "mus_Moe_Lose"
+		audio_sound_pitch(mus_Moe_Lose, 1);
+	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 6101245A
@@ -158,6 +174,17 @@ if(l6F0E1698_0)
 		/// @DnDArgument : "steps" "120"
 		/// @DnDArgument : "alarm" "1"
 		alarm_set(1, 120);
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 71DF6E41
+		/// @DnDParent : 0DF48D09
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_speeduptext"
+		/// @DnDArgument : "layer" ""Command""
+		/// @DnDSaveInfo : "objectid" "obj_speeduptext"
+		instance_create_layer(x + 0, y + 0, "Command", obj_speeduptext);
 	
 		/// @DnDAction : YoYo Games.Timelines.Speed_Timeline
 		/// @DnDVersion : 1
@@ -215,9 +242,9 @@ if(l6F0E1698_0)
 		/// @DnDHash : 2607B479
 		/// @DnDParent : 6C20E952
 		/// @DnDArgument : "soundid" "mus_Moe_Lose"
-		/// @DnDArgument : "pitch" "global.SonofaPITCH"
+		/// @DnDArgument : "pitch" "global.MusicPitch"
 		/// @DnDSaveInfo : "soundid" "mus_Moe_Lose"
-		audio_play_sound(mus_Moe_Lose, 0, 0, 1.0, undefined, global.SonofaPITCH);
+		audio_play_sound(mus_Moe_Lose, 0, 0, 1.0, undefined, global.MusicPitch);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
