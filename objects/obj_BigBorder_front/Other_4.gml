@@ -175,3 +175,17 @@ if(room == DoorTest)
 	/// @DnDDisabled : 1
 	/// @DnDParent : 063C72D4
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5D05284A
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "gameover"
+if(room == gameover)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 01B35ECC
+	/// @DnDParent : 5D05284A
+	instance_destroy();
+}

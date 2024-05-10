@@ -86,9 +86,8 @@ if(sprite_index == spr_flashlight_down)
 	/// @DnDVersion : 1
 	/// @DnDHash : 37AC057D
 	/// @DnDParent : 3212288D
-	/// @DnDArgument : "expr" "-800"
 	/// @DnDArgument : "var" "depth"
-	depth = -800;
+	depth = 0;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -123,9 +122,8 @@ if(sprite_index == spr_flashlight_left)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4D7870E5
 	/// @DnDParent : 2D0E3CE2
-	/// @DnDArgument : "expr" "-800"
 	/// @DnDArgument : "var" "depth"
-	depth = -800;
+	depth = 0;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

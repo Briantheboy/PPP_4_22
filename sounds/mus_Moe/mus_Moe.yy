@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 271.75186,
+  "duration": 0.1566,
   "parent": {
     "name": "CM_Inbetween",
     "path": "folders/Sounds/CM_Inbetween.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "mus_Moe.mp3",
   "type": 1,
-  "volume": 1.0,
+  "volume": 0.0,
 }

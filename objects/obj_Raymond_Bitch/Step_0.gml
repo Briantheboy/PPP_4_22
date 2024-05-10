@@ -71,3 +71,31 @@ if(room == Cut_GiveBirth)
 		}
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 65EDA298
+/// @DnDDisabled : 1
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "DoorTest"
+/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+/// @DnDVersion : 1
+/// @DnDHash : 672D3688
+/// @DnDDisabled : 1
+/// @DnDParent : 65EDA298
+/// @DnDArgument : "obj" "obj_RoboBody"
+/// @DnDSaveInfo : "obj" "obj_RoboBody"
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 49BE813D
+/// @DnDDisabled : 1
+/// @DnDParent : 672D3688
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "obj_RoboBody.sprite_index"
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 542065B1
+/// @DnDDisabled : 1
+/// @DnDParent : 49BE813D
+/// @DnDArgument : "spriteind" "obj_RoboBody.sprite_index"

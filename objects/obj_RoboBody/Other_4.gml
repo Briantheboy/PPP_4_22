@@ -15,6 +15,14 @@ if(l2DE06947_0)
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 	/// @DnDVersion : 1
+	/// @DnDHash : 1D559C9C
+	/// @DnDApplyTo : {obj_Raymond_Bitch}
+	/// @DnDParent : 2DE06947
+	/// @DnDArgument : "speed" "0"
+	with(obj_Raymond_Bitch) image_speed = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+	/// @DnDVersion : 1
 	/// @DnDHash : 3272AEF9
 	/// @DnDApplyTo : {obj_RoboArms}
 	/// @DnDParent : 2DE06947

@@ -50,6 +50,34 @@ if(room == ChooseExample)
 			/// @DnDParent : 58F4E560
 			/// @DnDArgument : "alpha" "0"
 			image_alpha = 0;
+		
+			/// @DnDAction : YoYo Games.Instances.Color_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 093DCDA2
+			/// @DnDParent : 58F4E560
+			/// @DnDArgument : "alpha" "false"
+			image_blend = $FFFFFFFF & $ffffff;
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 3E7A1774
+			/// @DnDParent : 58F4E560
+			/// @DnDArgument : "spriteind" "spr_button3_example"
+			/// @DnDSaveInfo : "spriteind" "spr_button3_example"
+			sprite_index = spr_button3_example;
+			image_index = 0;
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 5C7387C5
+			/// @DnDApplyTo : {obj_examplegrid}
+			/// @DnDParent : 58F4E560
+			/// @DnDArgument : "spriteind" "spr_examplegrid"
+			/// @DnDSaveInfo : "spriteind" "spr_examplegrid"
+			with(obj_examplegrid) {
+			sprite_index = spr_examplegrid;
+			image_index = 0;
+			}
 		}
 	}
 }

@@ -16,6 +16,26 @@ if(!l7B3BEC0B_0)
 	image_blend = $FF82EAFF & $ffffff;
 	image_alpha = ($FF82EAFF >> 24) / $ff;
 
+	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 243F1D17
+	/// @DnDApplyTo : {obj_Examplebutton_3}
+	/// @DnDParent : 7B3BEC0B
+	with(obj_Examplebutton_3) {
+	image_blend = $FFFFFFFF & $ffffff;
+	image_alpha = ($FFFFFFFF >> 24) / $ff;
+	}
+
+	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 08029C0A
+	/// @DnDApplyTo : {obj_Examplebutton_4}
+	/// @DnDParent : 7B3BEC0B
+	with(obj_Examplebutton_4) {
+	image_blend = $FFFFFFFF & $ffffff;
+	image_alpha = ($FFFFFFFF >> 24) / $ff;
+	}
+
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 5F0C6C1A
@@ -24,6 +44,30 @@ if(!l7B3BEC0B_0)
 	/// @DnDSaveInfo : "spriteind" "spr_button21_example"
 	sprite_index = spr_button21_example;
 	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 44D3BCED
+	/// @DnDApplyTo : {obj_Examplebutton_3}
+	/// @DnDParent : 7B3BEC0B
+	/// @DnDArgument : "spriteind" "spr_button3_example"
+	/// @DnDSaveInfo : "spriteind" "spr_button3_example"
+	with(obj_Examplebutton_3) {
+	sprite_index = spr_button3_example;
+	image_index = 0;
+	}
+
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 640C330C
+	/// @DnDApplyTo : {obj_Examplebutton_4}
+	/// @DnDParent : 7B3BEC0B
+	/// @DnDArgument : "spriteind" "spr_button4_example"
+	/// @DnDSaveInfo : "spriteind" "spr_button4_example"
+	with(obj_Examplebutton_4) {
+	sprite_index = spr_button4_example;
+	image_index = 0;
+	}
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1

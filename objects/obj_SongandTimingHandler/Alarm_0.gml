@@ -4,6 +4,13 @@
 /// @DnDArgument : "code" "layer_set_visible("Background_PitchBlack",false);"
 layer_set_visible("Background_PitchBlack",false);
 
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 28B0DC71
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+/// @DnDArgument : "alpha" "0.85"
+with(obj_Raymond_Bitch) image_alpha = 0.85;
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 11EC0921
@@ -24,12 +31,30 @@ sprite_index = spr_robo_happy;
 image_index = 0;
 }
 
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 6954D172
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+/// @DnDArgument : "spriteind" "spr_robo_happy"
+/// @DnDSaveInfo : "spriteind" "spr_robo_happy"
+with(obj_Raymond_Bitch) {
+sprite_index = spr_robo_happy;
+image_index = 0;
+}
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 5A643A48
 /// @DnDApplyTo : {obj_RoboBody}
 /// @DnDArgument : "speed" "global.AnimIncrease"
 with(obj_RoboBody) image_speed = global.AnimIncrease;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 431B4074
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+/// @DnDArgument : "speed" "global.AnimIncrease"
+with(obj_Raymond_Bitch) image_speed = global.AnimIncrease;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1

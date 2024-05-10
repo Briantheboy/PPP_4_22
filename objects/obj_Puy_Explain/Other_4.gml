@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Timelines.Speed_Timeline
-/// @DnDVersion : 1
-/// @DnDHash : 083E7394
-/// @DnDArgument : "speed" "1.4"
-timeline_speed = 1.4;
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3F929ADA
@@ -12,6 +6,13 @@ timeline_speed = 1.4;
 /// @DnDArgument : "value" "LoadCharacter"
 if(!(room == LoadCharacter))
 {
+	/// @DnDAction : YoYo Games.Timelines.Speed_Timeline
+	/// @DnDVersion : 1
+	/// @DnDHash : 083E7394
+	/// @DnDParent : 3F929ADA
+	/// @DnDArgument : "speed" "1.4"
+	timeline_speed = 1.4;
+
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
 	/// @DnDHash : 7572639B
@@ -67,19 +68,18 @@ if(room == LoadCharacter)
 	/// @DnDHash : 3E2CE9C0
 	/// @DnDParent : 3B644CFD
 	/// @DnDArgument : "xscale" "0.62"
-	/// @DnDArgument : "yscale" "0.18"
+	/// @DnDArgument : "yscale" "0.652"
 	image_xscale = 0.62;
-	image_yscale = 0.18;
+	image_yscale = 0.652;
 
 	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 	/// @DnDVersion : 1
 	/// @DnDHash : 189A82FE
+	/// @DnDDisabled : 1
 	/// @DnDParent : 3B644CFD
 	/// @DnDArgument : "timeline" "tml_PuyumiJumpin_Big"
 	/// @DnDSaveInfo : "timeline" "tml_PuyumiJumpin_Big"
-	timeline_index = tml_PuyumiJumpin_Big;
-	timeline_loop = 0;
-	timeline_running = 1;
+
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1

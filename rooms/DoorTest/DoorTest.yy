@@ -33,6 +33,7 @@
     {"name":"inst_3F39FB54","path":"rooms/DoorTest/DoorTest.yy",},
     {"name":"inst_6F9285B2","path":"rooms/DoorTest/DoorTest.yy",},
     {"name":"inst_3E94F4B7","path":"rooms/DoorTest/DoorTest.yy",},
+    {"name":"inst_3781FCDF","path":"rooms/DoorTest/DoorTest.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -67,6 +68,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Blocks","depth":200,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Border","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Slector","depth":400,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3781FCDF","colour":4278190080,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Raymond_Bitch","path":"objects/obj_Raymond_Bitch/obj_Raymond_Bitch.yy",},"properties":[],"rotation":0.0,"scaleX":1.6345315,"scaleY":1.5941315,"x":1936.0001,"y":1160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DFA986C","colour":4278190080,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_RoboBody","path":"objects/obj_RoboBody/obj_RoboBody.yy",},"properties":[],"rotation":0.0,"scaleX":1.7981483,"scaleY":1.7537038,"x":1933.0,"y":1216.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3F6A4426","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Nutshack","path":"objects/obj_Nutshack/obj_Nutshack.yy",},"properties":[],"rotation":0.0,"scaleX":1.798148,"scaleY":1.753704,"x":1936.0,"y":2168.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
@@ -74,7 +76,8 @@
         {"name":"g_Intensity","type":0,"value":"1",},
         {"name":"g_TintCol","type":1,"value":"#FF1A1A1A",},
       ],"spriteId":{"name":"spr_PromBack","path":"sprites/spr_PromBack/spr_PromBack.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background_Regular","animationFPS":30.0,"animationSpeedType":0,"colour":4290576370,"depth":600,"effectEnabled":true,"effectType":"_filter_old_film","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"FixSlowdown","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background_Regular","animationFPS":30.0,"animationSpeedType":0,"colour":4290576370,"depth":700,"effectEnabled":true,"effectType":"_filter_old_film","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_OldFilmFlickerIntensity","type":0,"value":"1",},
         {"name":"g_OldFilmFlickerSpeed","type":0,"value":"0.5",},
         {"name":"g_OldFilmJitterIntensity","type":0,"value":"0",},

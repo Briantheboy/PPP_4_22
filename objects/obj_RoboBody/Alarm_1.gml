@@ -6,6 +6,13 @@ image_speed = global.AnimIncrease;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
+/// @DnDHash : 21FC7637
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+/// @DnDArgument : "speed" "global.AnimIncrease"
+with(obj_Raymond_Bitch) image_speed = global.AnimIncrease;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
 /// @DnDHash : 1B52540C
 /// @DnDApplyTo : {obj_RoboArms}
 /// @DnDArgument : "speed" "global.AnimIncrease"
@@ -18,6 +25,17 @@ with(obj_RoboArms) image_speed = global.AnimIncrease;
 /// @DnDSaveInfo : "spriteind" "spr_RoboBody_MR"
 sprite_index = spr_RoboBody_MR;
 image_index = 0;
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 361D053B
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+/// @DnDArgument : "spriteind" "spr_RoboBody_MR"
+/// @DnDSaveInfo : "spriteind" "spr_RoboBody_MR"
+with(obj_Raymond_Bitch) {
+sprite_index = spr_RoboBody_MR;
+image_index = 0;
+}
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1

@@ -86,5 +86,15 @@ if(__dnd_score == 0)
 		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_liquidsplash"
 		audio_play_sound(sou_liquidsplash, 0, 0, 1.0, undefined, global.SonofaPITCH);
+	
+		/// @DnDAction : YoYo Games.Particles.Effect
+		/// @DnDVersion : 1
+		/// @DnDHash : 678EE653
+		/// @DnDParent : 1589EED0
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "type" "9"
+		/// @DnDArgument : "color" "$FF123960"
+		effect_create_below(9, x + 0, y + 0, 0, $FF123960 & $ffffff);
 	}
 }

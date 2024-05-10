@@ -294,6 +294,13 @@ if(room == MARIO)
 /// @DnDArgument : "value" "gameover"
 if(room == gameover)
 {
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 687C67C0
+	/// @DnDParent : 0179BA20
+	/// @DnDArgument : "code" "ds_list_destroy(minigame_lineup);"
+	ds_list_destroy(minigame_lineup);
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 7FDAEDE5

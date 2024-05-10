@@ -29,11 +29,17 @@ randomize();
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 065417B1
-/// @DnDArgument : "code" "minigame_lineup = ds_list_create();$(13_10)ds_list_add(minigame_lineup, BOOM, CASINO, COLLECT, FIREWORK, FLASHLIGHT, FLIRT, LOOKAWAY, MARIO, RIPHALF, RIPPLE, SPANK, SPILL, TELEPORT, VIBRATE, WRONGCHARACTER);$(13_10)//ds_list_add(minigame_lineup, FIREWORK, WRONGCHARACTER, BOOM);$(13_10)ds_list_shuffle(minigame_lineup);"
+/// @DnDArgument : "code" "minigame_lineup = ds_list_create();$(13_10)ds_list_add(minigame_lineup, MARIO, TELEPORT, SPILL, SPANK, FLASHLIGHT);$(13_10)ds_list_shuffle(minigame_lineup);"
 minigame_lineup = ds_list_create();
-ds_list_add(minigame_lineup, BOOM, CASINO, COLLECT, FIREWORK, FLASHLIGHT, FLIRT, LOOKAWAY, MARIO, RIPHALF, RIPPLE, SPANK, SPILL, TELEPORT, VIBRATE, WRONGCHARACTER);
-//ds_list_add(minigame_lineup, FIREWORK, WRONGCHARACTER, BOOM);
+ds_list_add(minigame_lineup, MARIO, TELEPORT, SPILL, SPANK, FLASHLIGHT);
 ds_list_shuffle(minigame_lineup);
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 65CB8B8E
+/// @DnDDisabled : 1
+/// @DnDArgument : "code" "minigame_lineup = ds_list_create();$(13_10)ds_list_add(minigame_lineup, BOOM, CASINO, COLLECT, FIREWORK, FLASHLIGHT, FLIRT, LOOKAWAY, MARIO, RIPHALF, RIPPLE, SPANK, SPILL, TELEPORT, VIBRATE, WRONGCHARACTER);$(13_10)ds_list_shuffle(minigame_lineup);"
+
 
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1

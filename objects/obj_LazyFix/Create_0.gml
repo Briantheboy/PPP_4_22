@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
 /// @DnDHash : 533B9B6D
-/// @DnDArgument : "x" "640"
+/// @DnDArgument : "x" "638"
 /// @DnDArgument : "y" "444"
-x = 640;
+x = 638;
 y = 444;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale

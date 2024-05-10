@@ -533,6 +533,18 @@ if(room == LoadCharacter)
 
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
+	/// @DnDHash : 53479608
+	/// @DnDApplyTo : {obj_game}
+	/// @DnDParent : 6DF1D23E
+	/// @DnDArgument : "x" "2282"
+	/// @DnDArgument : "y" "238"
+	with(obj_game) {
+	x = 2282;
+	y = 238;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
 	/// @DnDHash : 7CFEBB76
 	/// @DnDDisabled : 1
 	/// @DnDParent : 6DF1D23E

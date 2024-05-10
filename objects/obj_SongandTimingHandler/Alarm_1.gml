@@ -1,15 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 5AA20A0F
-/// @DnDArgument : "code" "layer_destroy("Lose_1");$(13_10)layer_destroy("Lose_2");$(13_10)layer_destroy("Win_1");$(13_10)layer_destroy("Win_2");$(13_10)layer_destroy("Win_3");$(13_10)layer_destroy("Win_4");$(13_10)layer_destroy("Win_Shake");"
-layer_destroy("Lose_1");
-layer_destroy("Lose_2");
-layer_destroy("Win_1");
-layer_destroy("Win_2");
-layer_destroy("Win_3");
-layer_destroy("Win_4");
-layer_destroy("Win_Shake");
-
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
 /// @DnDHash : 2E407450
@@ -22,12 +10,36 @@ with(obj_RoboBody) image_alpha = 1;
 /// @DnDApplyTo : {obj_RoboArms}
 with(obj_RoboArms) image_alpha = 1;
 
+/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+/// @DnDVersion : 1
+/// @DnDHash : 78E4AAAF
+/// @DnDArgument : "obj" "obj_FakeBacky"
+/// @DnDSaveInfo : "obj" "obj_FakeBacky"
+var l78E4AAAF_0 = false;
+l78E4AAAF_0 = instance_exists(obj_FakeBacky);
+if(l78E4AAAF_0)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 55BB3FBB
+	/// @DnDApplyTo : {obj_FakeBacky}
+	/// @DnDParent : 78E4AAAF
+	with(obj_FakeBacky) instance_destroy();
+}
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 670EB8C4
 /// @DnDApplyTo : {obj_RoboBody}
 /// @DnDArgument : "speed" "global.AnimIncrease"
 with(obj_RoboBody) image_speed = global.AnimIncrease;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 515FC15D
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+/// @DnDArgument : "speed" "global.AnimIncrease"
+with(obj_Raymond_Bitch) image_speed = global.AnimIncrease;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
@@ -43,6 +55,17 @@ with(obj_RoboArms) image_speed = global.AnimIncrease;
 /// @DnDArgument : "spriteind" "spr_RoboBody_ML"
 /// @DnDSaveInfo : "spriteind" "spr_RoboBody_ML"
 with(obj_RoboBody) {
+sprite_index = spr_RoboBody_ML;
+image_index = 0;
+}
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 4B11FB9E
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+/// @DnDArgument : "spriteind" "spr_RoboBody_ML"
+/// @DnDSaveInfo : "spriteind" "spr_RoboBody_ML"
+with(obj_Raymond_Bitch) {
 sprite_index = spr_RoboBody_ML;
 image_index = 0;
 }

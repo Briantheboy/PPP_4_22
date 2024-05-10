@@ -242,18 +242,18 @@ if(l72702A7F_0)
 	/// @DnDHash : 4A43694F
 	/// @DnDParent : 72702A7F
 	/// @DnDArgument : "sound" "mus_Moe_Win"
-	/// @DnDArgument : "pitch" "2"
+	/// @DnDArgument : "pitch" "1.8"
 	/// @DnDSaveInfo : "sound" "mus_Moe_Win"
-	audio_sound_pitch(mus_Moe_Win, 2);
+	audio_sound_pitch(mus_Moe_Win, 1.8);
 
 	/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
 	/// @DnDVersion : 1
 	/// @DnDHash : 165BD508
 	/// @DnDParent : 72702A7F
 	/// @DnDArgument : "sound" "mus_Moe_Lose"
-	/// @DnDArgument : "pitch" "2"
+	/// @DnDArgument : "pitch" "1.8"
 	/// @DnDSaveInfo : "sound" "mus_Moe_Lose"
-	audio_sound_pitch(mus_Moe_Lose, 2);
+	audio_sound_pitch(mus_Moe_Lose, 1.8);
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1

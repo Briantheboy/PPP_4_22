@@ -7,7 +7,6 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_7AA5EA9D","path":"rooms/ChooseExample/ChooseExample.yy",},
     {"name":"inst_39419D69","path":"rooms/ChooseExample/ChooseExample.yy",},
     {"name":"inst_66E18991","path":"rooms/ChooseExample/ChooseExample.yy",},
     {"name":"inst_14C58B3B","path":"rooms/ChooseExample/ChooseExample.yy",},
@@ -43,7 +42,6 @@
   "isDnd": true,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command","depth":0,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7AA5EA9D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tosslater","path":"objects/obj_tosslater/obj_tosslater.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":640.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_39419D69","colour":4293154141,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Puy_Explain","path":"objects/obj_Puy_Explain/obj_Puy_Explain.yy",},"properties":[],"rotation":0.0,"scaleX":0.31,"scaleY":0.09,"x":104.0,"y":808.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21E977BF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_CamBuddy","path":"objects/obj_CamBuddy/obj_CamBuddy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":72.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

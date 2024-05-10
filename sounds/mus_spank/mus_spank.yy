@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 7.663061,
+  "duration": 10.282167,
   "parent": {
     "name": "MG_SPANK",
     "path": "folders/Sounds/MG_SPANK.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "mus_spank.wav",
   "type": 1,
-  "volume": 0.05,
+  "volume": 1.0,
 }

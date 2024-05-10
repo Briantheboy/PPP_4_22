@@ -18,7 +18,6 @@
     {"name":"inst_62E1238F","path":"rooms/LoadCharacter/LoadCharacter.yy",},
     {"name":"inst_3FEBB3CD","path":"rooms/LoadCharacter/LoadCharacter.yy",},
     {"name":"inst_78E13484","path":"rooms/LoadCharacter/LoadCharacter.yy",},
-    {"name":"inst_115B7509","path":"rooms/LoadCharacter/LoadCharacter.yy",},
     {"name":"inst_7D0EDB97","path":"rooms/LoadCharacter/LoadCharacter.yy",},
     {"name":"inst_7DF26249","path":"rooms/LoadCharacter/LoadCharacter.yy",},
     {"name":"inst_1AA08D1","path":"rooms/LoadCharacter/LoadCharacter.yy",},
@@ -38,7 +37,6 @@
   "isDnd": true,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_115B7509","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Object268","path":"objects/Object268/Object268.yy",},"properties":[],"rotation":0.0,"scaleX":1.3666667,"scaleY":1.3851852,"x":1280.0,"y":720.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A76E45B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_CamBuddy","path":"objects/obj_CamBuddy/obj_CamBuddy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2176.0,"y":1568.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

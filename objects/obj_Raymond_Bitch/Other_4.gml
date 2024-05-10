@@ -54,3 +54,29 @@ if(room == Cut_Preg_Start)
 	sprite_index = spr_Ray_Sleep;
 	image_index = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 60E39BD4
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "DoorTest"
+if(room == DoorTest)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 34558914
+	/// @DnDApplyTo : {obj_numberondoor}
+	/// @DnDParent : 60E39BD4
+	/// @DnDArgument : "var" "MinigamePoints"
+	/// @DnDArgument : "op" "3"
+	with(obj_numberondoor) var l34558914_0 = MinigamePoints <= 0;
+	if(l34558914_0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+		/// @DnDVersion : 1
+		/// @DnDHash : 7B32284A
+		/// @DnDParent : 34558914
+		/// @DnDArgument : "alpha" "0"
+		image_alpha = 0;
+	}
+}

@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_littledot",
-    "path": "sprites/spr_littledot/spr_littledot.yy",
+    "name": "spr_redcube",
+    "path": "sprites/spr_redcube/spr_redcube.yy",
   },
   "spriteMaskId": null,
   "visible": true,

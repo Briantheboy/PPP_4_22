@@ -55,6 +55,18 @@ if(image_speed >= 1)
 		/// @DnDSaveInfo : "spriteind" "spr_RoboBody_Eating"
 		sprite_index = spr_RoboBody_Eating;
 		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 69CC0C82
+		/// @DnDApplyTo : {obj_Raymond_Bitch}
+		/// @DnDParent : 2F881C2F
+		/// @DnDArgument : "spriteind" "spr_RoboBody_Eating"
+		/// @DnDSaveInfo : "spriteind" "spr_RoboBody_Eating"
+		with(obj_Raymond_Bitch) {
+		sprite_index = spr_RoboBody_Eating;
+		image_index = 0;
+		}
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -73,6 +85,18 @@ if(image_speed >= 1)
 		/// @DnDSaveInfo : "spriteind" "spr_RoboBody_TummyFreak"
 		sprite_index = spr_RoboBody_TummyFreak;
 		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 1B37A6EA
+		/// @DnDApplyTo : {obj_Raymond_Bitch}
+		/// @DnDParent : 6DD1D3FD
+		/// @DnDArgument : "spriteind" "spr_RoboBody_TummyFreak"
+		/// @DnDSaveInfo : "spriteind" "spr_RoboBody_TummyFreak"
+		with(obj_Raymond_Bitch) {
+		sprite_index = spr_RoboBody_TummyFreak;
+		image_index = 0;
+		}
 	
 		/// @DnDAction : YoYo Games.Paths.Start_Path
 		/// @DnDVersion : 1.1
@@ -126,6 +150,14 @@ if(image_speed >= 1)
 		/// @DnDArgument : "speed" "0"
 		image_speed = 0;
 	
+		/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+		/// @DnDVersion : 1
+		/// @DnDHash : 3789AB4A
+		/// @DnDApplyTo : {obj_Raymond_Bitch}
+		/// @DnDParent : 2E458BD9
+		/// @DnDArgument : "speed" "0"
+		with(obj_Raymond_Bitch) image_speed = 0;
+	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
 		/// @DnDHash : 173C372C
@@ -135,5 +167,18 @@ if(image_speed >= 1)
 		/// @DnDSaveInfo : "spriteind" "spr_robo_lose"
 		sprite_index = spr_robo_lose;
 		image_index = 39;
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 77576F41
+		/// @DnDApplyTo : {obj_Raymond_Bitch}
+		/// @DnDParent : 2E458BD9
+		/// @DnDArgument : "imageind" "39"
+		/// @DnDArgument : "spriteind" "spr_robo_lose"
+		/// @DnDSaveInfo : "spriteind" "spr_robo_lose"
+		with(obj_Raymond_Bitch) {
+		sprite_index = spr_robo_lose;
+		image_index = 39;
+		}
 	}
 }

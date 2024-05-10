@@ -8,6 +8,17 @@ image_index = 0;
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
+/// @DnDHash : 40BEF6CC
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+/// @DnDArgument : "spriteind" "spr_RoboBody_StartEat"
+/// @DnDSaveInfo : "spriteind" "spr_RoboBody_StartEat"
+with(obj_Raymond_Bitch) {
+sprite_index = spr_RoboBody_StartEat;
+image_index = 0;
+}
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
 /// @DnDHash : 13F284DB
 /// @DnDApplyTo : {obj_RoboArms}
 /// @DnDArgument : "spriteind" "spr_RoboArms_StartEat"
@@ -107,6 +118,13 @@ with(obj_BigBorder_right) path_end();
 /// @DnDHash : 192D10D2
 /// @DnDArgument : "speed" "0"
 image_speed = 0;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 10A422E4
+/// @DnDApplyTo : {obj_Raymond_Bitch}
+/// @DnDArgument : "speed" "0"
+with(obj_Raymond_Bitch) image_speed = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
