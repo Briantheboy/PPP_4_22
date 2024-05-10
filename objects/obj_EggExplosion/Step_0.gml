@@ -26,5 +26,12 @@ if(__dnd_score == 1)
 		/// @DnDHash : 2F8877BE
 		/// @DnDParent : 6373CFB3
 		instance_destroy();
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 4D65D406
+		/// @DnDParent : 6373CFB3
+		/// @DnDArgument : "code" "layer_destroy("Screen_S");"
+		layer_destroy("Screen_S");
 	}
 }

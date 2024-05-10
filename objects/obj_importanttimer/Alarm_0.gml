@@ -36,8 +36,8 @@ if(!(room == gameover))
 	/// @DnDDisabled : 1
 	/// @DnDApplyTo : {obj_trackerball}
 	/// @DnDParent : 4D84945D
-	/// @DnDArgument : "room" "SPILL"
-	/// @DnDSaveInfo : "room" "SPILL"
+	/// @DnDArgument : "room" "RIPHALF"
+	/// @DnDSaveInfo : "room" "RIPHALF"
 
 
 	/// @DnDAction : YoYo Games.Common.If_Variable

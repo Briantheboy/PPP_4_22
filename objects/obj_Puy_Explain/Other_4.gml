@@ -66,11 +66,11 @@ if(room == LoadCharacter)
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
 	/// @DnDHash : 3E2CE9C0
+	/// @DnDDisabled : 1
 	/// @DnDParent : 3B644CFD
 	/// @DnDArgument : "xscale" "0.62"
 	/// @DnDArgument : "yscale" "0.652"
-	image_xscale = 0.62;
-	image_yscale = 0.652;
+
 
 	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 	/// @DnDVersion : 1

@@ -71,9 +71,9 @@ if(room == Make_Intro)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "Scaler"
 		/// @DnDArgument : "yscale" "Scaler"
-		/// @DnDArgument : "caption" ""Before we start, please use the MOUSE to choose\nif you want to make a NEW guy or LOAD one.""
+		/// @DnDArgument : "caption" ""Before we start, please use the MOUSE to choose\nif you want to make a NEW character or LOAD one.""
 		/// @DnDArgument : "angle" "Rotater"
-		draw_text_transformed(x + 150, y + -50, string("Before we start, please use the MOUSE to choose\nif you want to make a NEW guy or LOAD one.") + "", Scaler, Scaler, Rotater);
+		draw_text_transformed(x + 150, y + -50, string("Before we start, please use the MOUSE to choose\nif you want to make a NEW character or LOAD one.") + "", Scaler, Scaler, Rotater);
 	}
 }
 
@@ -101,9 +101,9 @@ if(room == ChooseExample)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "Scaler"
 		/// @DnDArgument : "yscale" "Scaler"
-		/// @DnDArgument : "caption" ""Alright, cool! Let's design a character! \nUse the mouse to make a selection.""
+		/// @DnDArgument : "caption" ""Alright, cool! Let's design a character! \nUse the MOUSE to make a selection.""
 		/// @DnDArgument : "angle" "Rotater"
-		draw_text_transformed(x + 150, y + -50, string("Alright, cool! Let's design a character! \nUse the mouse to make a selection.") + "", Scaler, Scaler, Rotater);
+		draw_text_transformed(x + 150, y + -50, string("Alright, cool! Let's design a character! \nUse the MOUSE to make a selection.") + "", Scaler, Scaler, Rotater);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -309,9 +309,9 @@ if(room == LoadCharacter)
 			/// @DnDArgument : "y_relative" "1"
 			/// @DnDArgument : "xscale" "Scaler"
 			/// @DnDArgument : "yscale" "Scaler"
-			/// @DnDArgument : "caption" ""Sick! Now pick what SLOT you wanna save your character\nonto. Once you are done, hit the top right arrow!""
+			/// @DnDArgument : "caption" ""Sick! Now pick what SLOT you wanna save your character\nonto. Once you are done, hit the TOP RIGHT ARROW!""
 			/// @DnDArgument : "angle" "Rotater"
-			draw_text_transformed(x + 300, y + -100, string("Sick! Now pick what SLOT you wanna save your character\nonto. Once you are done, hit the top right arrow!") + "", Scaler, Scaler, Rotater);
+			draw_text_transformed(x + 300, y + -100, string("Sick! Now pick what SLOT you wanna save your character\nonto. Once you are done, hit the TOP RIGHT ARROW!") + "", Scaler, Scaler, Rotater);
 		}
 	}
 

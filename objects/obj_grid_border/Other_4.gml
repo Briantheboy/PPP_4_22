@@ -1,3 +1,19 @@
+/// @DnDAction : YoYo Games.Timelines.Speed_Timeline
+/// @DnDVersion : 1
+/// @DnDHash : 255949E7
+/// @DnDArgument : "speed" "0.1"
+timeline_speed = 0.1;
+
+/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+/// @DnDVersion : 1
+/// @DnDHash : 1AD1E8E2
+/// @DnDArgument : "timeline" "tml_Raymond_Flash_alt"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "timeline" "tml_Raymond_Flash_alt"
+timeline_index = tml_Raymond_Flash_alt;
+timeline_loop = 1;
+timeline_running = 1;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4C3F98AC
